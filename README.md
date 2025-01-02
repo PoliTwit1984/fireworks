@@ -87,13 +87,14 @@ python scrape_models.py
 
 The script will:
 1. Load existing models.json if it exists
-2. Fetch latest model data from OpenRouter's API
-3. Compare new data with existing data:
-   - Preserve provider information from existing models
-   - Only update models that have changed
-   - Add any new models
-4. Clean up descriptions (remove line breaks, normalize spacing)
-5. Save to models.json only if changes were detected
+2. For each model:
+   - Fetch latest model data from OpenRouter's API
+   - Compare new data with existing data
+   - If changes are detected:
+     * Update the model's provider information
+     * Save changes to models.json immediately
+   - Continue to next model
+3. This per-model saving ensures no changes are lost if the script is interrupted
 
 ### Requirements
 
@@ -155,8 +156,11 @@ The script will:
    - Navigate to its OpenRouter page
    - Extract provider information
    - Compare with existing provider data
-   - Only update if changes are detected
-3. Save to models.json only if any providers changed
+   - If changes are detected:
+     * Update the model's provider information
+     * Save changes to models.json immediately
+   - Continue to next model
+3. This per-model saving ensures no changes are lost if the script is interrupted
 4. Report which models were updated and why
 
 ## Output Format
