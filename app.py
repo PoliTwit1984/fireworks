@@ -81,6 +81,34 @@ def search_models():
         return jsonify({"error": f"Error searching models: {str(e)}"}), 500
 
 
+@app.route("/api/get_providers", methods=["GET"])
+def get_providers():
+    """Get provider information for a model by query"""
+    query = request.args.get("q", "").strip()
+    if not query:
+        return jsonify({"error": "No model ID provided"}), 400
+
+    models_data = load_models()
+    if not models_data:
+        return jsonify({"error": "Failed to load models data"}), 500
+
+    try:
+        # Find the model by ID
+        model = next(
+            (model for model in models_data["data"] if model["id"] == query), None
+        )
+
+        if not model:
+            return jsonify({"success": True, "providers": None})
+
+        # Return provider data if it exists
+        providers = model.get("providers", [])
+        return jsonify({"success": True, "model_id": query, "providers": providers})
+
+    except Exception as e:
+        return jsonify({"error": f"Error getting providers: {str(e)}"}), 500
+
+
 if __name__ == "__main__":
     print("\nAvailable routes:")
     for rule in app.url_map.iter_rules():

@@ -2,7 +2,7 @@
 
 A collection of Python tools for working with OpenRouter's models and providers:
 1. Provider Scraper - Extracts provider information from OpenRouter model pages
-2. Models API - Flask API for searching and retrieving OpenRouter model information
+2. Models API - Flask API for searching OpenRouter models and retrieving their provider information
 
 ## Models API
 
@@ -33,6 +33,31 @@ A Flask-based REST API that provides endpoints for searching and retrieving Open
    }
    ```
    - Returns `"matches": null` if no models found
+
+3. `GET /api/get_providers?q=<model_id>`
+   - Gets provider information for a specific model
+   - Example: `/api/get_providers?q=deepseek/deepseek-chat`
+   - Response format:
+   ```json
+   {
+     "success": true,
+     "model_id": "deepseek/deepseek-chat",
+     "providers": [
+       {
+         "name": "deepseek",
+         "metrics": {
+           "context_length": 64000,
+           "max_output_tokens": 8000,
+           "input_price_per_million": 0.14,
+           "output_price_per_million": 0.28,
+           "latency_seconds": 1.23,
+           "throughput_tokens_per_second": 67.37
+         }
+       }
+     ]
+   }
+   ```
+   - Returns `"providers": null` if model not found
 
 ### Running the API
 
