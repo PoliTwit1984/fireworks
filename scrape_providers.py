@@ -177,8 +177,42 @@ def scrape_providers(model_url):
         return providers
 
 
+def providers_changed(existing_providers, new_providers, model_id):
+    """Compare existing and new provider data to detect changes"""
+    if len(existing_providers) != len(new_providers):
+        print(
+            f"Provider count changed for {model_id}: {len(existing_providers)} -> {len(new_providers)}"
+        )
+        return True
+
+    for i, new_provider in enumerate(new_providers):
+        if i >= len(existing_providers):
+            print(f"New provider found for {model_id}: {new_provider['name']}")
+            return True
+        existing = existing_providers[i]
+
+        # Compare provider names
+        if new_provider["name"] != existing["name"]:
+            print(
+                f"Provider name changed for {model_id}: {existing['name']} -> {new_provider['name']}"
+            )
+            return True
+
+        # Compare metrics
+        new_metrics = new_provider["metrics"]
+        existing_metrics = existing["metrics"]
+        for key in new_metrics:
+            if new_metrics[key] != existing_metrics.get(key):
+                print(
+                    f"Metric '{key}' changed for {model_id}/{new_provider['name']}: {existing_metrics.get(key)} -> {new_metrics[key]}"
+                )
+                return True
+
+    return False
+
+
 def update_models_with_providers():
-    """Read models.json, get provider data for each model, and update the file"""
+    """Read models.json, get provider data for each model, and update the file after each model"""
     try:
         # Read existing models.json
         with open("models.json", "r") as f:
@@ -194,10 +228,21 @@ def update_models_with_providers():
 
             # Get provider data
             try:
-                providers = scrape_providers(url)
-                # Add providers to model data
-                model["providers"] = providers
-                print(f"Added provider data for {model_id}")
+                new_providers = scrape_providers(url)
+
+                # Check if providers changed
+                existing_providers = model.get("providers", [])
+                if providers_changed(existing_providers, new_providers, model_id):
+                    model["providers"] = new_providers
+                    # Save changes immediately after updating each model
+                    try:
+                        with open("models.json", "w") as f:
+                            json.dump(models_data, f, indent=2)
+                        print(f"✓ Updated and saved provider data for {model_id}")
+                    except Exception as save_error:
+                        print(f"Error saving changes for {model_id}: {str(save_error)}")
+                else:
+                    print(f"No changes in provider data for {model_id}")
 
                 # Sleep to avoid rate limiting
                 import time
@@ -207,12 +252,6 @@ def update_models_with_providers():
             except Exception as e:
                 print(f"Error processing {model_id}: {str(e)}")
                 continue
-
-        # Save updated data back to models.json
-        with open("models.json", "w") as f:
-            json.dump(models_data, f, indent=2)
-
-        print("\nFinished updating models.json with provider data")
 
     except Exception as e:
         print(f"Error updating models: {str(e)}")

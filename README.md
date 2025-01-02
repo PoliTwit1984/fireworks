@@ -86,9 +86,14 @@ python scrape_models.py
 ```
 
 The script will:
-1. Fetch model data from OpenRouter's API
-2. Clean up model descriptions (remove line breaks, normalize spacing)
-3. Save the processed data to `models.json`
+1. Load existing models.json if it exists
+2. Fetch latest model data from OpenRouter's API
+3. Compare new data with existing data:
+   - Preserve provider information from existing models
+   - Only update models that have changed
+   - Add any new models
+4. Clean up descriptions (remove line breaks, normalize spacing)
+5. Save to models.json only if changes were detected
 
 ### Requirements
 
@@ -145,10 +150,14 @@ python scrape_providers.py https://openrouter.ai/google/gemini-2.0-flash-thinkin
 ```
 
 The script will:
-1. Navigate to the specified OpenRouter model page
-2. Look for the Providers tab
-3. Extract provider information if available
-4. Save the data to `providers.json`
+1. Load existing models.json
+2. For each model:
+   - Navigate to its OpenRouter page
+   - Extract provider information
+   - Compare with existing provider data
+   - Only update if changes are detected
+3. Save to models.json only if any providers changed
+4. Report which models were updated and why
 
 ## Output Format
 
