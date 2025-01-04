@@ -31,8 +31,19 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.14,
             "output_price_per_million": 0.28,
-            "latency_seconds": 1.27,
-            "throughput_tokens_per_second": 66.06
+            "latency_seconds": 1.4,
+            "throughput_tokens_per_second": 29.39
+          }
+        },
+        {
+          "name": "hyperbolic",
+          "metrics": {
+            "context_length": 128000,
+            "max_output_tokens": 128000,
+            "input_price_per_million": 0.25,
+            "output_price_per_million": 0.25,
+            "latency_seconds": 70.63,
+            "throughput_tokens_per_second": 0.03
           }
         },
         {
@@ -42,19 +53,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 5.4,
-            "throughput_tokens_per_second": 22.92
-          }
-        },
-        {
-          "name": "deepinfra",
-          "metrics": {
-            "context_length": 64000,
-            "max_output_tokens": 64000,
-            "input_price_per_million": 1.0,
-            "output_price_per_million": 2.0,
-            "latency_seconds": 7.6,
-            "throughput_tokens_per_second": 1.27
+            "latency_seconds": 3.08,
+            "throughput_tokens_per_second": 21.68
           }
         }
       ]
@@ -90,8 +90,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.68,
-            "throughput_tokens_per_second": 40.9
+            "latency_seconds": 0.6,
+            "throughput_tokens_per_second": 35.45
           }
         }
       ]
@@ -127,8 +127,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.33,
-            "throughput_tokens_per_second": 157.1
+            "latency_seconds": 1.32,
+            "throughput_tokens_per_second": 155.5
           }
         },
         {
@@ -138,8 +138,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.11,
-            "throughput_tokens_per_second": 152.4
+            "latency_seconds": 0.85,
+            "throughput_tokens_per_second": 148.8
           }
         }
       ]
@@ -175,8 +175,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 2.7,
-            "throughput_tokens_per_second": 20.94
+            "latency_seconds": 1.29,
+            "throughput_tokens_per_second": 26.91
           }
         }
       ]
@@ -212,8 +212,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 2.43,
-            "throughput_tokens_per_second": 25.26
+            "latency_seconds": 1.68,
+            "throughput_tokens_per_second": 25.69
           }
         }
       ]
@@ -286,8 +286,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 6.02,
-            "throughput_tokens_per_second": 11.21
+            "latency_seconds": 6.61,
+            "throughput_tokens_per_second": 11.08
           }
         }
       ]
@@ -323,8 +323,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 10.0,
-            "latency_seconds": 0.87,
-            "throughput_tokens_per_second": 63.39
+            "latency_seconds": 0.74,
+            "throughput_tokens_per_second": 63.33
           }
         }
       ]
@@ -360,8 +360,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 10.0,
-            "latency_seconds": 0.62,
-            "throughput_tokens_per_second": 62.75
+            "latency_seconds": 0.53,
+            "throughput_tokens_per_second": 68.04
           }
         }
       ]
@@ -397,8 +397,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0375,
             "output_price_per_million": 0.15,
-            "latency_seconds": 0.36,
-            "throughput_tokens_per_second": 55.63
+            "latency_seconds": 0.4,
+            "throughput_tokens_per_second": 91.27
           }
         }
       ]
@@ -434,8 +434,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.09,
-            "throughput_tokens_per_second": 137.1
+            "latency_seconds": 1.99,
+            "throughput_tokens_per_second": 133.2
           }
         },
         {
@@ -445,8 +445,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.01,
-            "throughput_tokens_per_second": 148.1
+            "latency_seconds": 1.7,
+            "throughput_tokens_per_second": 135.8
           }
         }
       ]
@@ -482,8 +482,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.11,
-            "throughput_tokens_per_second": 47.87
+            "latency_seconds": 2.45,
+            "throughput_tokens_per_second": 42.26
           }
         }
       ]
@@ -519,8 +519,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.55,
-            "throughput_tokens_per_second": 13.52
+            "latency_seconds": 0.7,
+            "throughput_tokens_per_second": 13.46
           }
         },
         {
@@ -530,8 +530,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.26,
-            "throughput_tokens_per_second": 27.47
+            "latency_seconds": 0.5,
+            "throughput_tokens_per_second": 26.4
           }
         },
         {
@@ -541,8 +541,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.39,
             "output_price_per_million": 0.39,
-            "latency_seconds": 1.12,
-            "throughput_tokens_per_second": 20.82
+            "latency_seconds": 1.24,
+            "throughput_tokens_per_second": 30.67
           }
         },
         {
@@ -552,8 +552,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.4,
             "output_price_per_million": 0.4,
-            "latency_seconds": 1.96,
-            "throughput_tokens_per_second": 20.46
+            "latency_seconds": 0.99,
+            "throughput_tokens_per_second": 26.3
           }
         },
         {
@@ -563,8 +563,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.23,
-            "throughput_tokens_per_second": 46.56
+            "latency_seconds": 0.21,
+            "throughput_tokens_per_second": 46.78
           }
         },
         {
@@ -574,8 +574,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.88,
             "output_price_per_million": 0.88,
-            "latency_seconds": 0.53,
-            "throughput_tokens_per_second": 78.59
+            "latency_seconds": 0.7,
+            "throughput_tokens_per_second": 92.76
           }
         },
         {
@@ -585,8 +585,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.62,
-            "throughput_tokens_per_second": 102.2
+            "latency_seconds": 0.65,
+            "throughput_tokens_per_second": 101.8
           }
         },
         {
@@ -596,8 +596,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.89,
-            "throughput_tokens_per_second": 54.78
+            "latency_seconds": 0.83,
+            "throughput_tokens_per_second": 49.46
           }
         }
       ]
@@ -633,8 +633,8 @@
             "max_output_tokens": 5000,
             "input_price_per_million": 0.06,
             "output_price_per_million": 0.24,
-            "latency_seconds": 1.22,
-            "throughput_tokens_per_second": 72.62
+            "latency_seconds": 0.45,
+            "throughput_tokens_per_second": 79.48
           }
         }
       ]
@@ -670,8 +670,8 @@
             "max_output_tokens": 5000,
             "input_price_per_million": 0.035,
             "output_price_per_million": 0.14,
-            "latency_seconds": 0.48,
-            "throughput_tokens_per_second": 110.3
+            "latency_seconds": 0.36,
+            "throughput_tokens_per_second": 165.4
           }
         }
       ]
@@ -707,8 +707,8 @@
             "max_output_tokens": 5000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 3.2,
-            "latency_seconds": 0.69,
-            "throughput_tokens_per_second": 57.74
+            "latency_seconds": 1.2,
+            "throughput_tokens_per_second": 62.84
           }
         }
       ]
@@ -744,8 +744,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 62.89
+            "latency_seconds": 0.55,
+            "throughput_tokens_per_second": 61.98
           }
         },
         {
@@ -755,8 +755,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.6,
-            "latency_seconds": 0.54,
-            "throughput_tokens_per_second": 71.81
+            "latency_seconds": 0.67,
+            "throughput_tokens_per_second": 63.28
           }
         },
         {
@@ -766,8 +766,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.78,
-            "throughput_tokens_per_second": 36.78
+            "latency_seconds": 0.96,
+            "throughput_tokens_per_second": 35.48
           }
         },
         {
@@ -777,8 +777,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.67,
-            "throughput_tokens_per_second": 101.4
+            "latency_seconds": 0.64,
+            "throughput_tokens_per_second": 100.6
           }
         },
         {
@@ -788,8 +788,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 1.2,
             "output_price_per_million": 1.2,
-            "latency_seconds": 0.6,
-            "throughput_tokens_per_second": 61.92
+            "latency_seconds": 0.68,
+            "throughput_tokens_per_second": 58.75
           }
         }
       ]
@@ -825,8 +825,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.35,
-            "throughput_tokens_per_second": 37.91
+            "latency_seconds": 1.52,
+            "throughput_tokens_per_second": 38.0
           }
         }
       ]
@@ -863,7 +863,7 @@
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
             "latency_seconds": 1.0,
-            "throughput_tokens_per_second": 61.8
+            "throughput_tokens_per_second": 65.89
           }
         }
       ]
@@ -899,8 +899,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 5.24,
-            "throughput_tokens_per_second": 11.33
+            "latency_seconds": 5.74,
+            "throughput_tokens_per_second": 10.94
           }
         }
       ]
@@ -973,8 +973,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 0.64,
-            "throughput_tokens_per_second": 39.85
+            "latency_seconds": 0.49,
+            "throughput_tokens_per_second": 39.89
           }
         }
       ]
@@ -1010,8 +1010,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 0.99,
-            "throughput_tokens_per_second": 30.42
+            "latency_seconds": 0.7,
+            "throughput_tokens_per_second": 30.1
           }
         }
       ]
@@ -1047,8 +1047,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 1.04,
-            "throughput_tokens_per_second": 36.35
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 34.08
           }
         }
       ]
@@ -1084,8 +1084,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 5.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 0.4,
-            "throughput_tokens_per_second": 65.49
+            "latency_seconds": 0.84,
+            "throughput_tokens_per_second": 62.45
           }
         }
       ]
@@ -1121,8 +1121,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.21,
-            "throughput_tokens_per_second": 44.43
+            "latency_seconds": 1.34,
+            "throughput_tokens_per_second": 45.01
           }
         }
       ]
@@ -1158,8 +1158,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 54.41
+            "latency_seconds": 1.28,
+            "throughput_tokens_per_second": 69.74
           }
         }
       ]
@@ -1195,8 +1195,8 @@
             "max_output_tokens": 3000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.16,
-            "latency_seconds": 0.57,
-            "throughput_tokens_per_second": 38.78
+            "latency_seconds": 0.27,
+            "throughput_tokens_per_second": 57.99
           }
         },
         {
@@ -1206,8 +1206,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.16,
-            "latency_seconds": 0.23,
-            "throughput_tokens_per_second": 36.84
+            "latency_seconds": 0.2,
+            "throughput_tokens_per_second": 40.75
           }
         },
         {
@@ -1217,8 +1217,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.96,
-            "throughput_tokens_per_second": 31.7
+            "latency_seconds": 0.86,
+            "throughput_tokens_per_second": 34.11
           }
         },
         {
@@ -1228,8 +1228,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.61,
-            "throughput_tokens_per_second": 96.95
+            "latency_seconds": 0.49,
+            "throughput_tokens_per_second": 94.2
           }
         },
         {
@@ -1298,8 +1298,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 4.5,
             "output_price_per_million": 4.5,
-            "latency_seconds": 6.38,
-            "throughput_tokens_per_second": 12.17
+            "latency_seconds": 4.08,
+            "throughput_tokens_per_second": 13.22
           }
         }
       ]
@@ -1335,8 +1335,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 2.6,
             "output_price_per_million": 3.4,
-            "latency_seconds": 6.31,
-            "throughput_tokens_per_second": 12.69
+            "latency_seconds": 3.37,
+            "throughput_tokens_per_second": 11.81
           }
         }
       ]
@@ -1372,8 +1372,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.68,
-            "throughput_tokens_per_second": 69.98
+            "latency_seconds": 0.41,
+            "throughput_tokens_per_second": 66.1
           }
         }
       ]
@@ -1409,8 +1409,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.41,
-            "throughput_tokens_per_second": 52.43
+            "latency_seconds": 1.85,
+            "throughput_tokens_per_second": 48.52
           }
         }
       ]
@@ -1446,8 +1446,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.41,
-            "throughput_tokens_per_second": 52.43
+            "latency_seconds": 1.85,
+            "throughput_tokens_per_second": 48.52
           }
         },
         {
@@ -1457,8 +1457,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 7.11,
-            "throughput_tokens_per_second": 49.58
+            "latency_seconds": 2.37,
+            "throughput_tokens_per_second": 44.52
           }
         }
       ]
@@ -1494,8 +1494,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.52,
-            "throughput_tokens_per_second": 59.1
+            "latency_seconds": 2.35,
+            "throughput_tokens_per_second": 57.14
           }
         }
       ]
@@ -1531,8 +1531,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.59,
-            "throughput_tokens_per_second": 57.1
+            "latency_seconds": 1.28,
+            "throughput_tokens_per_second": 54.7
           }
         },
         {
@@ -1542,8 +1542,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.52,
-            "throughput_tokens_per_second": 59.1
+            "latency_seconds": 2.35,
+            "throughput_tokens_per_second": 57.14
           }
         },
         {
@@ -1553,8 +1553,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 4.0,
-            "latency_seconds": 2.4,
-            "throughput_tokens_per_second": 63.61
+            "latency_seconds": 2.43,
+            "throughput_tokens_per_second": 63.35
           }
         }
       ]
@@ -1590,8 +1590,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 3.375,
             "output_price_per_million": 4.5,
-            "latency_seconds": 0.94,
-            "throughput_tokens_per_second": 13.71
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 13.72
           }
         },
         {
@@ -1601,8 +1601,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 4.14,
-            "throughput_tokens_per_second": 10.35
+            "latency_seconds": 4.12,
+            "throughput_tokens_per_second": 11.25
           }
         },
         {
@@ -1612,8 +1612,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 4.5,
             "output_price_per_million": 6.0,
-            "latency_seconds": 0.94,
-            "throughput_tokens_per_second": 13.71
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 13.72
           }
         }
       ]
@@ -1649,8 +1649,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 1.875,
             "output_price_per_million": 2.25,
-            "latency_seconds": 1.46,
-            "throughput_tokens_per_second": 10.4
+            "latency_seconds": 1.34,
+            "throughput_tokens_per_second": 10.7
           }
         },
         {
@@ -1660,8 +1660,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 3.0,
-            "latency_seconds": 1.46,
-            "throughput_tokens_per_second": 10.4
+            "latency_seconds": 1.34,
+            "throughput_tokens_per_second": 10.7
           }
         },
         {
@@ -1671,8 +1671,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 3.0,
-            "latency_seconds": 1.46,
-            "throughput_tokens_per_second": 30.58
+            "latency_seconds": 1.41,
+            "throughput_tokens_per_second": 32.52
           }
         },
         {
@@ -1682,8 +1682,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 3.37,
-            "throughput_tokens_per_second": 11.6
+            "latency_seconds": 3.48,
+            "throughput_tokens_per_second": 6.54
           }
         }
       ]
@@ -1719,8 +1719,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.85,
-            "throughput_tokens_per_second": 61.74
+            "latency_seconds": 2.94,
+            "throughput_tokens_per_second": 60.33
           }
         }
       ]
@@ -1756,8 +1756,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.85,
-            "throughput_tokens_per_second": 61.74
+            "latency_seconds": 2.94,
+            "throughput_tokens_per_second": 60.33
           }
         },
         {
@@ -1767,8 +1767,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 2.11,
-            "throughput_tokens_per_second": 36.04
+            "latency_seconds": 2.23,
+            "throughput_tokens_per_second": 34.92
           }
         },
         {
@@ -1778,8 +1778,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.65,
-            "throughput_tokens_per_second": 47.52
+            "latency_seconds": 1.83,
+            "throughput_tokens_per_second": 44.84
           }
         }
       ]
@@ -1815,8 +1815,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 5.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 0.34,
-            "throughput_tokens_per_second": 63.82
+            "latency_seconds": 0.42,
+            "throughput_tokens_per_second": 66.2
           }
         }
       ]
@@ -1852,8 +1852,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 0.24,
-            "throughput_tokens_per_second": 98.07
+            "latency_seconds": 0.25,
+            "throughput_tokens_per_second": 102.8
           }
         }
       ]
@@ -1889,8 +1889,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.04,
             "output_price_per_million": 0.04,
-            "latency_seconds": 0.2,
-            "throughput_tokens_per_second": 114.1
+            "latency_seconds": 0.33,
+            "throughput_tokens_per_second": 120.4
           }
         }
       ]
@@ -1926,8 +1926,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.27,
             "output_price_per_million": 0.27,
-            "latency_seconds": 0.77,
-            "throughput_tokens_per_second": 127.2
+            "latency_seconds": 0.61,
+            "throughput_tokens_per_second": 131.1
           }
         }
       ]
@@ -1963,8 +1963,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 1.29,
-            "throughput_tokens_per_second": 24.36
+            "latency_seconds": 1.96,
+            "throughput_tokens_per_second": 21.31
           }
         },
         {
@@ -1974,8 +1974,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 40.3
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 30.78
           }
         },
         {
@@ -1985,8 +1985,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 1.24,
-            "throughput_tokens_per_second": 30.49
+            "latency_seconds": 0.88,
+            "throughput_tokens_per_second": 29.63
           }
         }
       ]
@@ -2022,8 +2022,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 10.0,
-            "latency_seconds": 1.94,
-            "throughput_tokens_per_second": 15.25
+            "latency_seconds": 1.97,
+            "throughput_tokens_per_second": 17.34
           }
         }
       ]
@@ -2059,8 +2059,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 10.0,
-            "latency_seconds": 3.82,
-            "throughput_tokens_per_second": 34.88
+            "latency_seconds": 3.3,
+            "throughput_tokens_per_second": 35.68
           }
         }
       ]
@@ -2096,8 +2096,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0375,
             "output_price_per_million": 0.15,
-            "latency_seconds": 0.45,
-            "throughput_tokens_per_second": 193.6
+            "latency_seconds": 0.44,
+            "throughput_tokens_per_second": 183.3
           }
         }
       ]
@@ -2133,8 +2133,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 3.0,
-            "latency_seconds": 1.08,
-            "throughput_tokens_per_second": 36.98
+            "latency_seconds": 1.2,
+            "throughput_tokens_per_second": 35.04
           }
         },
         {
@@ -2144,8 +2144,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 2.44,
-            "throughput_tokens_per_second": 10.84
+            "latency_seconds": 2.68,
+            "throughput_tokens_per_second": 10.34
           }
         }
       ]
@@ -2181,8 +2181,8 @@
             "max_output_tokens": 66000,
             "input_price_per_million": 0.15,
             "output_price_per_million": 0.15,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 141.8
+            "latency_seconds": 0.42,
+            "throughput_tokens_per_second": 25.63
           }
         }
       ]
@@ -2218,8 +2218,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.92,
-            "throughput_tokens_per_second": 26.78
+            "latency_seconds": 0.79,
+            "throughput_tokens_per_second": 22.48
           }
         },
         {
@@ -2229,8 +2229,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 1.2,
-            "latency_seconds": 2.82,
-            "throughput_tokens_per_second": 10.24
+            "latency_seconds": 2.92,
+            "throughput_tokens_per_second": 9.71
           }
         }
       ]
@@ -2266,7 +2266,7 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.43,
+            "latency_seconds": 0.4,
             "throughput_tokens_per_second": null
           }
         }
@@ -2303,8 +2303,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.015,
             "output_price_per_million": 0.025,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 121.7
+            "latency_seconds": 0.47,
+            "throughput_tokens_per_second": 274.4
           }
         },
         {
@@ -2314,8 +2314,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.015,
             "output_price_per_million": 0.025,
-            "latency_seconds": 0.24,
-            "throughput_tokens_per_second": 171.5
+            "latency_seconds": 0.35,
+            "throughput_tokens_per_second": 187.3
           }
         },
         {
@@ -2325,8 +2325,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.03,
-            "latency_seconds": 0.31,
-            "throughput_tokens_per_second": 104.8
+            "latency_seconds": 0.39,
+            "throughput_tokens_per_second": 171.9
           }
         },
         {
@@ -2336,8 +2336,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.05,
-            "latency_seconds": 0.54,
-            "throughput_tokens_per_second": 85.62
+            "latency_seconds": 0.74,
+            "throughput_tokens_per_second": 140.9
           }
         },
         {
@@ -2347,8 +2347,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.054,
             "output_price_per_million": 0.054,
-            "latency_seconds": 4.03,
-            "throughput_tokens_per_second": 20.59
+            "latency_seconds": 1.73,
+            "throughput_tokens_per_second": 38.6
           }
         },
         {
@@ -2358,8 +2358,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 250.1
+            "latency_seconds": 0.4,
+            "throughput_tokens_per_second": 255.3
           }
         },
         {
@@ -2369,8 +2369,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 0.47,
-            "throughput_tokens_per_second": 147.4
+            "latency_seconds": 0.55,
+            "throughput_tokens_per_second": 172.9
           }
         }
       ]
@@ -2406,7 +2406,7 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.18,
+            "latency_seconds": 0.5,
             "throughput_tokens_per_second": null
           }
         }
@@ -2443,8 +2443,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.01,
             "output_price_per_million": 0.01,
-            "latency_seconds": 0.33,
-            "throughput_tokens_per_second": 387.4
+            "latency_seconds": 0.31,
+            "throughput_tokens_per_second": 373.3
           }
         },
         {
@@ -2454,8 +2454,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.01,
             "output_price_per_million": 0.02,
-            "latency_seconds": 0.23,
-            "throughput_tokens_per_second": 153.2
+            "latency_seconds": 0.18,
+            "throughput_tokens_per_second": 156.4
           }
         },
         {
@@ -2465,8 +2465,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.02,
             "output_price_per_million": 0.02,
-            "latency_seconds": 0.58,
-            "throughput_tokens_per_second": 241.4
+            "latency_seconds": 0.55,
+            "throughput_tokens_per_second": 267.1
           }
         }
       ]
@@ -2502,8 +2502,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.69,
-            "throughput_tokens_per_second": 324.8
+            "latency_seconds": 1.08,
+            "throughput_tokens_per_second": 360.2
           }
         }
       ]
@@ -2539,8 +2539,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 69.12
+            "latency_seconds": 0.6,
+            "throughput_tokens_per_second": 66.63
           }
         },
         {
@@ -2550,8 +2550,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 1.08,
             "output_price_per_million": 1.08,
-            "latency_seconds": 0.69,
-            "throughput_tokens_per_second": 58.86
+            "latency_seconds": 0.81,
+            "throughput_tokens_per_second": 56.95
           }
         },
         {
@@ -2561,8 +2561,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.35,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.8,
-            "throughput_tokens_per_second": 38.98
+            "latency_seconds": 0.87,
+            "throughput_tokens_per_second": 32.84
           }
         }
       ]
@@ -2598,8 +2598,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.27,
-            "throughput_tokens_per_second": 163.7
+            "latency_seconds": 0.66,
+            "throughput_tokens_per_second": 159.5
           }
         },
         {
@@ -2609,8 +2609,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.64,
-            "throughput_tokens_per_second": 762.9
+            "latency_seconds": 0.97,
+            "throughput_tokens_per_second": 667.6
           }
         }
       ]
@@ -2646,8 +2646,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.055,
             "output_price_per_million": 0.055,
-            "latency_seconds": 0.12,
-            "throughput_tokens_per_second": 62.72
+            "latency_seconds": 0.13,
+            "throughput_tokens_per_second": 63.58
           }
         },
         {
@@ -2657,8 +2657,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.06,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.58,
-            "throughput_tokens_per_second": 42.31
+            "latency_seconds": 0.89,
+            "throughput_tokens_per_second": 43.98
           }
         },
         {
@@ -2668,8 +2668,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.162,
             "output_price_per_million": 0.162,
-            "latency_seconds": 0.27,
-            "throughput_tokens_per_second": 163.7
+            "latency_seconds": 0.66,
+            "throughput_tokens_per_second": 159.5
           }
         },
         {
@@ -2679,8 +2679,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.37,
-            "throughput_tokens_per_second": 118.7
+            "latency_seconds": 0.43,
+            "throughput_tokens_per_second": 108.7
           }
         }
       ]
@@ -2716,8 +2716,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.23,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.13,
-            "throughput_tokens_per_second": 34.97
+            "latency_seconds": 0.11,
+            "throughput_tokens_per_second": 33.97
           }
         },
         {
@@ -2727,8 +2727,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.38,
             "output_price_per_million": 0.4,
-            "latency_seconds": 1.21,
-            "throughput_tokens_per_second": 18.18
+            "latency_seconds": 0.9,
+            "throughput_tokens_per_second": 19.51
           }
         },
         {
@@ -2738,8 +2738,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.4,
             "output_price_per_million": 0.4,
-            "latency_seconds": 1.87,
-            "throughput_tokens_per_second": 20.37
+            "latency_seconds": 2.61,
+            "throughput_tokens_per_second": 12.12
           }
         },
         {
@@ -2749,8 +2749,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.36,
-            "throughput_tokens_per_second": 77.94
+            "latency_seconds": 0.39,
+            "throughput_tokens_per_second": 72.3
           }
         },
         {
@@ -2760,8 +2760,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 1.08,
             "output_price_per_million": 1.08,
-            "latency_seconds": 0.66,
-            "throughput_tokens_per_second": 91.31
+            "latency_seconds": 0.83,
+            "throughput_tokens_per_second": 81.11
           }
         }
       ]
@@ -2797,8 +2797,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.4,
             "output_price_per_million": 0.4,
-            "latency_seconds": 1.84,
-            "throughput_tokens_per_second": 43.55
+            "latency_seconds": 3.73,
+            "throughput_tokens_per_second": 10.47
           }
         }
       ]
@@ -2834,8 +2834,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.1875,
             "output_price_per_million": 1.125,
-            "latency_seconds": 1.06,
-            "throughput_tokens_per_second": 35.14
+            "latency_seconds": 1.09,
+            "throughput_tokens_per_second": 34.12
           }
         },
         {
@@ -2845,8 +2845,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.5,
-            "latency_seconds": 1.06,
-            "throughput_tokens_per_second": 35.14
+            "latency_seconds": 1.09,
+            "throughput_tokens_per_second": 34.12
           }
         },
         {
@@ -2856,8 +2856,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 1.2,
-            "latency_seconds": 1.39,
-            "throughput_tokens_per_second": 24.45
+            "latency_seconds": 1.62,
+            "throughput_tokens_per_second": 22.26
           }
         }
       ]
@@ -2893,8 +2893,8 @@
             "max_output_tokens": 66000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 12.0,
-            "latency_seconds": 2.48,
-            "throughput_tokens_per_second": 92.72
+            "latency_seconds": 3.37,
+            "throughput_tokens_per_second": 92.05
           }
         }
       ]
@@ -2930,8 +2930,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 15.0,
             "output_price_per_million": 60.0,
-            "latency_seconds": 9.53,
-            "throughput_tokens_per_second": 80.5
+            "latency_seconds": 10.24,
+            "throughput_tokens_per_second": 66.2
           }
         }
       ]
@@ -2967,8 +2967,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 15.0,
             "output_price_per_million": 60.0,
-            "latency_seconds": 11.54,
-            "throughput_tokens_per_second": 83.33
+            "latency_seconds": 9.18,
+            "throughput_tokens_per_second": 42.0
           }
         }
       ]
@@ -3004,8 +3004,8 @@
             "max_output_tokens": 66000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 12.0,
-            "latency_seconds": 5.42,
-            "throughput_tokens_per_second": 116.1
+            "latency_seconds": 6.75,
+            "throughput_tokens_per_second": 103.3
           }
         }
       ]
@@ -3041,8 +3041,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 0.83,
-            "throughput_tokens_per_second": 61.57
+            "latency_seconds": 1.01,
+            "throughput_tokens_per_second": 60.73
           }
         },
         {
@@ -3052,8 +3052,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.15,
             "output_price_per_million": 0.15,
-            "latency_seconds": 0.8,
-            "throughput_tokens_per_second": 54.87
+            "latency_seconds": 0.61,
+            "throughput_tokens_per_second": 53.76
           }
         }
       ]
@@ -3089,8 +3089,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.1425,
             "output_price_per_million": 0.57,
-            "latency_seconds": 0.26,
-            "throughput_tokens_per_second": 91.55
+            "latency_seconds": 0.3,
+            "throughput_tokens_per_second": 92.15
           }
         }
       ]
@@ -3126,8 +3126,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 2.375,
             "output_price_per_million": 9.5,
-            "latency_seconds": 0.48,
-            "throughput_tokens_per_second": 59.53
+            "latency_seconds": 0.51,
+            "throughput_tokens_per_second": 58.03
           }
         }
       ]
@@ -3163,8 +3163,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 1.45,
-            "throughput_tokens_per_second": 75.94
+            "latency_seconds": 1.54,
+            "throughput_tokens_per_second": 74.48
           }
         }
       ]
@@ -3200,8 +3200,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.36,
-            "throughput_tokens_per_second": 203.6
+            "latency_seconds": 2.52,
+            "throughput_tokens_per_second": 204.6
           }
         },
         {
@@ -3211,8 +3211,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 5.35,
-            "throughput_tokens_per_second": 39.87
+            "latency_seconds": 1.45,
+            "throughput_tokens_per_second": 38.35
           }
         }
       ]
@@ -3248,8 +3248,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.35,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.48,
-            "throughput_tokens_per_second": 33.29
+            "latency_seconds": 1.61,
+            "throughput_tokens_per_second": 32.19
           }
         },
         {
@@ -3259,8 +3259,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 1.48,
             "output_price_per_million": 1.48,
-            "latency_seconds": 1.69,
-            "throughput_tokens_per_second": 29.48
+            "latency_seconds": 1.68,
+            "throughput_tokens_per_second": 29.71
           }
         },
         {
@@ -3270,8 +3270,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 20.7
+            "latency_seconds": 0.66,
+            "throughput_tokens_per_second": 19.32
           }
         }
       ]
@@ -3307,8 +3307,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.41,
-            "throughput_tokens_per_second": 187.4
+            "latency_seconds": 1.96,
+            "throughput_tokens_per_second": 231.1
           }
         }
       ]
@@ -3344,8 +3344,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 8.0,
-            "latency_seconds": 0.8,
-            "throughput_tokens_per_second": 44.46
+            "latency_seconds": 0.79,
+            "throughput_tokens_per_second": 46.3
           }
         }
       ]
@@ -3381,8 +3381,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 176.2
+            "latency_seconds": 0.43,
+            "throughput_tokens_per_second": 175.7
           }
         }
       ]
@@ -3418,8 +3418,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 1.13,
-            "throughput_tokens_per_second": 14.66
+            "latency_seconds": 2.32,
+            "throughput_tokens_per_second": 12.75
           }
         }
       ]
@@ -3455,8 +3455,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.68,
-            "throughput_tokens_per_second": 22.86
+            "latency_seconds": 1.76,
+            "throughput_tokens_per_second": 24.22
           }
         },
         {
@@ -3466,8 +3466,8 @@
             "max_output_tokens": 12000,
             "input_price_per_million": 0.4,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.88,
-            "throughput_tokens_per_second": 31.59
+            "latency_seconds": 0.98,
+            "throughput_tokens_per_second": 31.12
           }
         }
       ]
@@ -3503,8 +3503,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.51,
-            "throughput_tokens_per_second": 19.08
+            "latency_seconds": 0.81,
+            "throughput_tokens_per_second": 16.34
           }
         },
         {
@@ -3514,8 +3514,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 1.69,
-            "throughput_tokens_per_second": 16.19
+            "latency_seconds": 1.74,
+            "throughput_tokens_per_second": 16.18
           }
         }
       ]
@@ -3551,8 +3551,8 @@
             "max_output_tokens": 127000,
             "input_price_per_million": 5.0,
             "output_price_per_million": 5.0,
-            "latency_seconds": 2.1,
-            "throughput_tokens_per_second": 24.4
+            "latency_seconds": 2.19,
+            "throughput_tokens_per_second": 17.78
           }
         }
       ]
@@ -3588,8 +3588,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 5.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 0.93,
-            "throughput_tokens_per_second": 143.7
+            "latency_seconds": 1.04,
+            "throughput_tokens_per_second": 131.2
           }
         }
       ]
@@ -3625,8 +3625,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.43,
-            "throughput_tokens_per_second": 142.0
+            "latency_seconds": 0.44,
+            "throughput_tokens_per_second": 140.3
           }
         }
       ]
@@ -3662,8 +3662,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 1.2,
-            "latency_seconds": 1.95,
-            "throughput_tokens_per_second": 12.93
+            "latency_seconds": 1.93,
+            "throughput_tokens_per_second": 13.33
           }
         }
       ]
@@ -3699,8 +3699,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 10.0,
-            "latency_seconds": 0.72,
-            "throughput_tokens_per_second": 97.64
+            "latency_seconds": 0.64,
+            "throughput_tokens_per_second": 66.5
           }
         },
         {
@@ -3710,8 +3710,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 10.0,
-            "latency_seconds": 7.04,
-            "throughput_tokens_per_second": 93.72
+            "latency_seconds": 5.97,
+            "throughput_tokens_per_second": 109.6
           }
         }
       ]
@@ -3747,8 +3747,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 2.14,
-            "throughput_tokens_per_second": 20.05
+            "latency_seconds": 7.76,
+            "throughput_tokens_per_second": 20.39
           }
         },
         {
@@ -3758,8 +3758,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 4.0,
-            "latency_seconds": 2.14,
-            "throughput_tokens_per_second": 20.05
+            "latency_seconds": 7.76,
+            "throughput_tokens_per_second": 20.39
           }
         }
       ]
@@ -3795,8 +3795,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 1.2,
-            "latency_seconds": 2.03,
-            "throughput_tokens_per_second": 12.0
+            "latency_seconds": 1.86,
+            "throughput_tokens_per_second": 12.62
           }
         }
       ]
@@ -3832,8 +3832,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.55,
-            "throughput_tokens_per_second": 213.4
+            "latency_seconds": 0.56,
+            "throughput_tokens_per_second": 220.4
           }
         }
       ]
@@ -3869,8 +3869,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.82,
-            "throughput_tokens_per_second": 61.29
+            "latency_seconds": 3.98,
+            "throughput_tokens_per_second": 63.49
           }
         },
         {
@@ -3880,8 +3880,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.87,
-            "throughput_tokens_per_second": 42.71
+            "latency_seconds": 2.31,
+            "throughput_tokens_per_second": 41.69
           }
         }
       ]
@@ -3917,8 +3917,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 0.51,
-            "throughput_tokens_per_second": 56.31
+            "latency_seconds": 0.39,
+            "throughput_tokens_per_second": 69.84
           }
         }
       ]
@@ -3954,8 +3954,8 @@
             "max_output_tokens": 127000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 1.39,
-            "throughput_tokens_per_second": 56.86
+            "latency_seconds": 1.43,
+            "throughput_tokens_per_second": 56.17
           }
         }
       ]
@@ -3991,8 +3991,8 @@
             "max_output_tokens": 127000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 1.13,
-            "throughput_tokens_per_second": 208.6
+            "latency_seconds": 1.08,
+            "throughput_tokens_per_second": 217.0
           }
         }
       ]
@@ -4028,8 +4028,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 3.56,
-            "throughput_tokens_per_second": 117.0
+            "latency_seconds": 3.42,
+            "throughput_tokens_per_second": 119.6
           }
         }
       ]
@@ -4065,8 +4065,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.26,
-            "throughput_tokens_per_second": 26.82
+            "latency_seconds": 0.21,
+            "throughput_tokens_per_second": 18.58
           }
         },
         {
@@ -4076,19 +4076,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.77,
-            "throughput_tokens_per_second": 26.76
-          }
-        },
-        {
-          "name": "lepton",
-          "metrics": {
-            "context_length": 131000,
-            "max_output_tokens": 131000,
-            "input_price_per_million": 2.8,
-            "output_price_per_million": 2.8,
-            "latency_seconds": 0.27,
-            "throughput_tokens_per_second": 22.87
+            "latency_seconds": 0.45,
+            "throughput_tokens_per_second": 30.07
           }
         },
         {
@@ -4098,8 +4087,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 3.0,
-            "latency_seconds": 0.84,
-            "throughput_tokens_per_second": 53.97
+            "latency_seconds": 0.77,
+            "throughput_tokens_per_second": 53.4
           }
         },
         {
@@ -4109,8 +4098,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 3.15,
             "output_price_per_million": 3.15,
-            "latency_seconds": 1.65,
-            "throughput_tokens_per_second": 30.91
+            "latency_seconds": 1.37,
+            "throughput_tokens_per_second": 33.97
           }
         },
         {
@@ -4120,8 +4109,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.5,
-            "throughput_tokens_per_second": 7.72
+            "latency_seconds": 1.21,
+            "throughput_tokens_per_second": 11.61
           }
         }
       ]
@@ -4157,8 +4146,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 14.62,
             "output_price_per_million": 14.62,
-            "latency_seconds": 4.2,
-            "throughput_tokens_per_second": 90.32
+            "latency_seconds": 2.22,
+            "throughput_tokens_per_second": 105.6
           }
         }
       ]
@@ -4194,8 +4183,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.43,
-            "throughput_tokens_per_second": 817.7
+            "latency_seconds": 0.66,
+            "throughput_tokens_per_second": 834.1
           }
         }
       ]
@@ -4231,8 +4220,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.02,
             "output_price_per_million": 0.05,
-            "latency_seconds": 0.23,
-            "throughput_tokens_per_second": 105.8
+            "latency_seconds": 0.2,
+            "throughput_tokens_per_second": 83.46
           }
         },
         {
@@ -4242,8 +4231,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.025,
             "output_price_per_million": 0.04,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 137.0
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 113.4
           }
         },
         {
@@ -4253,8 +4242,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.05,
             "output_price_per_million": 0.05,
-            "latency_seconds": 0.53,
-            "throughput_tokens_per_second": 63.18
+            "latency_seconds": 0.54,
+            "throughput_tokens_per_second": 63.36
           }
         },
         {
@@ -4264,8 +4253,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.4,
-            "throughput_tokens_per_second": 47.04
+            "latency_seconds": 0.3,
+            "throughput_tokens_per_second": 39.65
           }
         },
         {
@@ -4275,8 +4264,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 0.62,
-            "throughput_tokens_per_second": 121.8
+            "latency_seconds": 0.68,
+            "throughput_tokens_per_second": 103.7
           }
         },
         {
@@ -4286,8 +4275,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.162,
             "output_price_per_million": 0.162,
-            "latency_seconds": 0.34,
-            "throughput_tokens_per_second": 341.8
+            "latency_seconds": 0.35,
+            "throughput_tokens_per_second": 295.3
           }
         },
         {
@@ -4297,8 +4286,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.36,
-            "throughput_tokens_per_second": 210.3
+            "latency_seconds": 0.47,
+            "throughput_tokens_per_second": 202.2
           }
         },
         {
@@ -4308,8 +4297,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.28,
-            "throughput_tokens_per_second": 181.7
+            "latency_seconds": 0.29,
+            "throughput_tokens_per_second": 182.2
           }
         },
         {
@@ -4319,8 +4308,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.7,
-            "throughput_tokens_per_second": 304.2
+            "latency_seconds": 0.66,
+            "throughput_tokens_per_second": 286.7
           }
         }
       ]
@@ -4356,8 +4345,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 2.82,
-            "throughput_tokens_per_second": 396.5
+            "latency_seconds": 1.53,
+            "throughput_tokens_per_second": 386.4
           }
         }
       ]
@@ -4393,8 +4382,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.15,
-            "throughput_tokens_per_second": 39.28
+            "latency_seconds": 0.2,
+            "throughput_tokens_per_second": 30.93
           }
         },
         {
@@ -4404,8 +4393,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.12,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.52,
-            "throughput_tokens_per_second": 29.4
+            "latency_seconds": 0.53,
+            "throughput_tokens_per_second": 27.71
           }
         },
         {
@@ -4415,8 +4404,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.34,
             "output_price_per_million": 0.39,
-            "latency_seconds": 0.93,
-            "throughput_tokens_per_second": 28.19
+            "latency_seconds": 1.06,
+            "throughput_tokens_per_second": 27.37
           }
         },
         {
@@ -4426,8 +4415,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.4,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.66,
-            "throughput_tokens_per_second": 26.48
+            "latency_seconds": 1.4,
+            "throughput_tokens_per_second": 22.91
           }
         },
         {
@@ -4437,8 +4426,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.792,
             "output_price_per_million": 0.792,
-            "latency_seconds": 0.75,
-            "throughput_tokens_per_second": 57.32
+            "latency_seconds": 0.58,
+            "throughput_tokens_per_second": 73.73
           }
         },
         {
@@ -4448,8 +4437,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.13,
-            "throughput_tokens_per_second": 38.68
+            "latency_seconds": 0.11,
+            "throughput_tokens_per_second": 40.44
           }
         },
         {
@@ -4459,8 +4448,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.37,
-            "throughput_tokens_per_second": 91.39
+            "latency_seconds": 0.38,
+            "throughput_tokens_per_second": 79.29
           }
         },
         {
@@ -4470,8 +4459,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 0.31,
-            "throughput_tokens_per_second": 60.46
+            "latency_seconds": 0.32,
+            "throughput_tokens_per_second": 59.08
           }
         }
       ]
@@ -4507,8 +4496,8 @@
             "max_output_tokens": 64000,
             "input_price_per_million": 3.25,
             "output_price_per_million": 3.25,
-            "latency_seconds": 3.3,
-            "throughput_tokens_per_second": 210.8
+            "latency_seconds": 2.52,
+            "throughput_tokens_per_second": 180.4
           }
         }
       ]
@@ -4544,8 +4533,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.035,
             "output_price_per_million": 0.08,
-            "latency_seconds": 0.28,
-            "throughput_tokens_per_second": 51.45
+            "latency_seconds": 0.31,
+            "throughput_tokens_per_second": 50.5
           }
         },
         {
@@ -4555,8 +4544,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.15,
             "output_price_per_million": 0.15,
-            "latency_seconds": 0.3,
-            "throughput_tokens_per_second": 98.15
+            "latency_seconds": 0.26,
+            "throughput_tokens_per_second": 102.1
           }
         },
         {
@@ -4566,8 +4555,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.17,
             "output_price_per_million": 0.17,
-            "latency_seconds": 1.07,
-            "throughput_tokens_per_second": 40.37
+            "latency_seconds": 1.05,
+            "throughput_tokens_per_second": 33.78
           }
         },
         {
@@ -4577,8 +4566,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.27,
-            "throughput_tokens_per_second": 97.84
+            "latency_seconds": 0.14,
+            "throughput_tokens_per_second": 62.8
           }
         },
         {
@@ -4588,8 +4577,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.3,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 70.97
+            "latency_seconds": 0.51,
+            "throughput_tokens_per_second": 72.59
           }
         }
       ]
@@ -4625,8 +4614,8 @@
             "max_output_tokens": 256000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 0.25,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 93.25
+            "latency_seconds": 0.47,
+            "throughput_tokens_per_second": 87.86
           }
         }
       ]
@@ -4662,8 +4651,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 0.15,
             "output_price_per_million": 0.6,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 69.18
+            "latency_seconds": 0.61,
+            "throughput_tokens_per_second": 65.34
           }
         }
       ]
@@ -4699,8 +4688,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 0.15,
             "output_price_per_million": 0.6,
-            "latency_seconds": 0.48,
-            "throughput_tokens_per_second": 86.66
+            "latency_seconds": 0.44,
+            "throughput_tokens_per_second": 77.96
           }
         }
       ]
@@ -4736,8 +4725,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.54,
-            "throughput_tokens_per_second": 101.4
+            "latency_seconds": 0.8,
+            "throughput_tokens_per_second": 101.1
           }
         }
       ]
@@ -4773,8 +4762,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.054,
             "output_price_per_million": 0.054,
-            "latency_seconds": 0.54,
-            "throughput_tokens_per_second": 101.4
+            "latency_seconds": 0.8,
+            "throughput_tokens_per_second": 101.1
           }
         }
       ]
@@ -4810,8 +4799,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.27,
             "output_price_per_million": 0.27,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 37.21
+            "latency_seconds": 0.36,
+            "throughput_tokens_per_second": 35.2
           }
         },
         {
@@ -4821,8 +4810,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.72,
             "output_price_per_million": 0.72,
-            "latency_seconds": 0.47,
-            "throughput_tokens_per_second": 50.32
+            "latency_seconds": 0.81,
+            "throughput_tokens_per_second": 50.77
           }
         }
       ]
@@ -4858,8 +4847,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 1.875,
             "output_price_per_million": 2.25,
-            "latency_seconds": 2.79,
-            "throughput_tokens_per_second": 21.65
+            "latency_seconds": 1.2,
+            "throughput_tokens_per_second": 22.25
           }
         },
         {
@@ -4869,8 +4858,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 3.0,
-            "latency_seconds": 2.79,
-            "throughput_tokens_per_second": 21.65
+            "latency_seconds": 1.2,
+            "throughput_tokens_per_second": 22.25
           }
         },
         {
@@ -4880,7 +4869,7 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 4.27,
+            "latency_seconds": 4.29,
             "throughput_tokens_per_second": 10.78
           }
         }
@@ -4917,8 +4906,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.53,
-            "throughput_tokens_per_second": 43.71
+            "latency_seconds": 0.63,
+            "throughput_tokens_per_second": 47.43
           }
         },
         {
@@ -4929,7 +4918,7 @@
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
             "latency_seconds": 0.86,
-            "throughput_tokens_per_second": 68.78
+            "throughput_tokens_per_second": 71.05
           }
         }
       ]
@@ -4965,8 +4954,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.53,
-            "throughput_tokens_per_second": 43.71
+            "latency_seconds": 0.63,
+            "throughput_tokens_per_second": 47.43
           }
         },
         {
@@ -4977,7 +4966,7 @@
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
             "latency_seconds": 0.86,
-            "throughput_tokens_per_second": 68.78
+            "throughput_tokens_per_second": 71.05
           }
         },
         {
@@ -4987,8 +4976,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.08,
             "output_price_per_million": 0.08,
-            "latency_seconds": 2.11,
-            "throughput_tokens_per_second": 55.91
+            "latency_seconds": 2.17,
+            "throughput_tokens_per_second": 56.93
           }
         }
       ]
@@ -5024,8 +5013,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 3.0,
-            "latency_seconds": 0.52,
-            "throughput_tokens_per_second": 59.84
+            "latency_seconds": 0.91,
+            "throughput_tokens_per_second": 64.9
           }
         }
       ]
@@ -5061,8 +5050,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.7,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 198.4
+            "latency_seconds": 0.46,
+            "throughput_tokens_per_second": 152.1
           }
         }
       ]
@@ -5098,8 +5087,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.9,
-            "throughput_tokens_per_second": 60.77
+            "latency_seconds": 1.88,
+            "throughput_tokens_per_second": 62.11
           }
         }
       ]
@@ -5129,25 +5118,25 @@
       "per_request_limits": null,
       "providers": [
         {
-          "name": "anthropic",
-          "metrics": {
-            "context_length": 200000,
-            "max_output_tokens": 8000,
-            "input_price_per_million": 3.0,
-            "output_price_per_million": 15.0,
-            "latency_seconds": 1.9,
-            "throughput_tokens_per_second": 60.77
-          }
-        },
-        {
           "name": "google_vertex",
           "metrics": {
             "context_length": 200000,
             "max_output_tokens": 8000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.64,
-            "throughput_tokens_per_second": 44.05
+            "latency_seconds": 2.15,
+            "throughput_tokens_per_second": 43.98
+          }
+        },
+        {
+          "name": "anthropic",
+          "metrics": {
+            "context_length": 200000,
+            "max_output_tokens": 8000,
+            "input_price_per_million": 3.0,
+            "output_price_per_million": 15.0,
+            "latency_seconds": 1.88,
+            "throughput_tokens_per_second": 62.11
           }
         }
       ]
@@ -5183,8 +5172,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.35,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.18,
-            "throughput_tokens_per_second": 37.86
+            "latency_seconds": 0.17,
+            "throughput_tokens_per_second": 37.34
           }
         },
         {
@@ -5194,8 +5183,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 1.48,
             "output_price_per_million": 1.48,
-            "latency_seconds": 3.76,
-            "throughput_tokens_per_second": 18.42
+            "latency_seconds": 3.79,
+            "throughput_tokens_per_second": 23.11
           }
         }
       ]
@@ -5231,8 +5220,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 1.14,
-            "throughput_tokens_per_second": 32.77
+            "latency_seconds": 1.3,
+            "throughput_tokens_per_second": 32.24
           }
         }
       ]
@@ -5268,8 +5257,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.34,
             "output_price_per_million": 0.39,
-            "latency_seconds": 1.01,
-            "throughput_tokens_per_second": 43.36
+            "latency_seconds": 1.5,
+            "throughput_tokens_per_second": 31.58
           }
         },
         {
@@ -5279,8 +5268,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.36,
-            "throughput_tokens_per_second": 52.72
+            "latency_seconds": 0.82,
+            "throughput_tokens_per_second": 44.69
           }
         },
         {
@@ -5290,8 +5279,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.81,
             "output_price_per_million": 0.81,
-            "latency_seconds": 0.38,
-            "throughput_tokens_per_second": 120.5
+            "latency_seconds": 0.46,
+            "throughput_tokens_per_second": 105.8
           }
         }
       ]
@@ -5327,8 +5316,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.3,
-            "throughput_tokens_per_second": 60.62
+            "latency_seconds": 1.29,
+            "throughput_tokens_per_second": 61.06
           }
         },
         {
@@ -5338,8 +5327,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 85.12
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 88.24
           }
         }
       ]
@@ -5375,8 +5364,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.055,
-            "latency_seconds": 0.19,
-            "throughput_tokens_per_second": 115.1
+            "latency_seconds": 0.27,
+            "throughput_tokens_per_second": 102.0
           }
         },
         {
@@ -5386,8 +5375,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.06,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.79,
-            "throughput_tokens_per_second": 88.96
+            "latency_seconds": 0.84,
+            "throughput_tokens_per_second": 92.48
           }
         },
         {
@@ -5397,8 +5386,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 85.12
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 88.24
           }
         },
         {
@@ -5408,8 +5397,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.43,
-            "throughput_tokens_per_second": 74.64
+            "latency_seconds": 0.29,
+            "throughput_tokens_per_second": 123.9
           }
         }
       ]
@@ -5445,8 +5434,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 85.12
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 88.24
           }
         }
       ]
@@ -5482,8 +5471,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.055,
-            "latency_seconds": 0.37,
-            "throughput_tokens_per_second": 112.3
+            "latency_seconds": 0.25,
+            "throughput_tokens_per_second": 100.7
           }
         },
         {
@@ -5493,8 +5482,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.06,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.87,
-            "throughput_tokens_per_second": 90.06
+            "latency_seconds": 0.72,
+            "throughput_tokens_per_second": 94.69
           }
         },
         {
@@ -5504,8 +5493,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 85.22
+            "latency_seconds": 0.48,
+            "throughput_tokens_per_second": 82.79
           }
         },
         {
@@ -5515,8 +5504,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.43,
-            "throughput_tokens_per_second": 109.6
+            "latency_seconds": 0.41,
+            "throughput_tokens_per_second": 110.4
           }
         }
       ]
@@ -5552,8 +5541,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.025,
             "output_price_per_million": 0.04,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 100.7
+            "latency_seconds": 0.79,
+            "throughput_tokens_per_second": 99.6
           }
         },
         {
@@ -5563,8 +5552,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.14,
             "output_price_per_million": 0.14,
-            "latency_seconds": 0.62,
-            "throughput_tokens_per_second": 97.07
+            "latency_seconds": 0.65,
+            "throughput_tokens_per_second": 95.18
           }
         }
       ]
@@ -5600,8 +5589,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.72,
-            "throughput_tokens_per_second": 24.04
+            "latency_seconds": 1.36,
+            "throughput_tokens_per_second": 25.09
           }
         }
       ]
@@ -5637,8 +5626,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 0.1,
             "output_price_per_million": 0.1,
-            "latency_seconds": 1.15,
-            "throughput_tokens_per_second": 24.09
+            "latency_seconds": 1.36,
+            "throughput_tokens_per_second": 25.09
           }
         }
       ]
@@ -5674,8 +5663,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 1.02,
-            "throughput_tokens_per_second": 25.94
+            "latency_seconds": 1.38,
+            "throughput_tokens_per_second": 28.84
           }
         }
       ]
@@ -5711,8 +5700,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 1.02,
-            "throughput_tokens_per_second": 25.94
+            "latency_seconds": 1.38,
+            "throughput_tokens_per_second": 28.84
           }
         }
       ]
@@ -5748,8 +5737,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 3.375,
             "output_price_per_million": 4.5,
-            "latency_seconds": 1.54,
-            "throughput_tokens_per_second": 13.39
+            "latency_seconds": 1.23,
+            "throughput_tokens_per_second": 14.03
           }
         },
         {
@@ -5759,8 +5748,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 4.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 1.76,
-            "throughput_tokens_per_second": 10.31
+            "latency_seconds": 2.54,
+            "throughput_tokens_per_second": 10.3
           }
         },
         {
@@ -5770,8 +5759,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 4.5,
             "output_price_per_million": 6.0,
-            "latency_seconds": 1.54,
-            "throughput_tokens_per_second": 13.39
+            "latency_seconds": 1.23,
+            "throughput_tokens_per_second": 14.03
           }
         }
       ]
@@ -5807,8 +5796,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.075,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.74,
-            "throughput_tokens_per_second": 160.1
+            "latency_seconds": 0.76,
+            "throughput_tokens_per_second": 170.9
           }
         },
         {
@@ -5818,8 +5807,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.075,
             "output_price_per_million": 0.3,
-            "latency_seconds": 1.61,
-            "throughput_tokens_per_second": 131.9
+            "latency_seconds": 1.82,
+            "throughput_tokens_per_second": 199.4
           }
         }
       ]
@@ -5855,8 +5844,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 0.51,
-            "throughput_tokens_per_second": 56.31
+            "latency_seconds": 0.39,
+            "throughput_tokens_per_second": 69.84
           }
         }
       ]
@@ -5892,8 +5881,8 @@
             "max_output_tokens": 127000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 1.39,
-            "throughput_tokens_per_second": 56.86
+            "latency_seconds": 1.43,
+            "throughput_tokens_per_second": 56.17
           }
         }
       ]
@@ -5929,8 +5918,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 1.86,
-            "throughput_tokens_per_second": 8.01
+            "latency_seconds": 6.66,
+            "throughput_tokens_per_second": 7.77
           }
         }
       ]
@@ -5966,8 +5955,8 @@
             "max_output_tokens": 131000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.55,
-            "throughput_tokens_per_second": 213.4
+            "latency_seconds": 0.56,
+            "throughput_tokens_per_second": 220.4
           }
         }
       ]
@@ -6003,8 +5992,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 5.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 0.78,
-            "throughput_tokens_per_second": 92.75
+            "latency_seconds": 0.66,
+            "throughput_tokens_per_second": 98.35
           }
         },
         {
@@ -6014,8 +6003,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 5.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.36,
-            "throughput_tokens_per_second": 81.63
+            "latency_seconds": 1.0,
+            "throughput_tokens_per_second": 85.93
           }
         }
       ]
@@ -6051,8 +6040,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.4,
-            "throughput_tokens_per_second": 51.3
+            "latency_seconds": 0.41,
+            "throughput_tokens_per_second": 46.6
           }
         }
       ]
@@ -6088,8 +6077,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 10.0,
-            "latency_seconds": 0.8,
-            "throughput_tokens_per_second": 95.96
+            "latency_seconds": 0.55,
+            "throughput_tokens_per_second": 88.26
           }
         },
         {
@@ -6099,8 +6088,8 @@
             "max_output_tokens": 16000,
             "input_price_per_million": 2.5,
             "output_price_per_million": 10.0,
-            "latency_seconds": 4.42,
-            "throughput_tokens_per_second": 92.64
+            "latency_seconds": 4.17,
+            "throughput_tokens_per_second": 74.96
           }
         }
       ]
@@ -6136,8 +6125,8 @@
             "max_output_tokens": 64000,
             "input_price_per_million": 6.0,
             "output_price_per_million": 18.0,
-            "latency_seconds": 1.14,
-            "throughput_tokens_per_second": 95.99
+            "latency_seconds": 0.55,
+            "throughput_tokens_per_second": 88.26
           }
         }
       ]
@@ -6173,8 +6162,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.1875,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.59,
-            "throughput_tokens_per_second": 26.59
+            "latency_seconds": 0.62,
+            "throughput_tokens_per_second": 27.3
           }
         },
         {
@@ -6184,8 +6173,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.59,
-            "throughput_tokens_per_second": 26.59
+            "latency_seconds": 0.62,
+            "throughput_tokens_per_second": 27.3
           }
         }
       ]
@@ -6221,8 +6210,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.1875,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.59,
-            "throughput_tokens_per_second": 26.59
+            "latency_seconds": 0.62,
+            "throughput_tokens_per_second": 27.3
           }
         },
         {
@@ -6232,8 +6221,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.59,
-            "throughput_tokens_per_second": 26.59
+            "latency_seconds": 0.62,
+            "throughput_tokens_per_second": 27.3
           }
         },
         {
@@ -6280,8 +6269,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 72.34
+            "latency_seconds": 0.44,
+            "throughput_tokens_per_second": 71.75
           }
         },
         {
@@ -6291,8 +6280,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 141.0
+            "latency_seconds": 0.52,
+            "throughput_tokens_per_second": 179.5
           }
         }
       ]
@@ -6328,8 +6317,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.03,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.18,
-            "throughput_tokens_per_second": 137.5
+            "latency_seconds": 0.16,
+            "throughput_tokens_per_second": 135.1
           }
         },
         {
@@ -6340,7 +6329,7 @@
             "input_price_per_million": 0.04,
             "output_price_per_million": 0.04,
             "latency_seconds": 0.42,
-            "throughput_tokens_per_second": 63.54
+            "throughput_tokens_per_second": 64.38
           }
         },
         {
@@ -6350,8 +6339,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 72.34
+            "latency_seconds": 0.44,
+            "throughput_tokens_per_second": 71.75
           }
         },
         {
@@ -6361,8 +6350,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.1875,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 50.46
+            "latency_seconds": 0.5,
+            "throughput_tokens_per_second": 50.24
           }
         },
         {
@@ -6372,8 +6361,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.29,
-            "throughput_tokens_per_second": 217.1
+            "latency_seconds": 0.24,
+            "throughput_tokens_per_second": 217.7
           }
         },
         {
@@ -6383,8 +6372,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 50.46
+            "latency_seconds": 0.5,
+            "throughput_tokens_per_second": 50.24
           }
         }
       ]
@@ -6420,8 +6409,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.1875,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.55,
-            "throughput_tokens_per_second": 56.09
+            "latency_seconds": 0.5,
+            "throughput_tokens_per_second": 50.24
           }
         },
         {
@@ -6431,8 +6420,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.55,
-            "throughput_tokens_per_second": 56.09
+            "latency_seconds": 0.5,
+            "throughput_tokens_per_second": 50.24
           }
         }
       ]
@@ -6468,8 +6457,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.29,
-            "throughput_tokens_per_second": 217.1
+            "latency_seconds": 0.24,
+            "throughput_tokens_per_second": 217.7
           }
         }
       ]
@@ -6505,8 +6494,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.23,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.16,
-            "throughput_tokens_per_second": 40.12
+            "latency_seconds": 0.23,
+            "throughput_tokens_per_second": 40.14
           }
         },
         {
@@ -6516,8 +6505,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.51,
             "output_price_per_million": 0.74,
-            "latency_seconds": 0.9,
-            "throughput_tokens_per_second": 6.66
+            "latency_seconds": 0.91,
+            "throughput_tokens_per_second": 7.74
           }
         },
         {
@@ -6528,7 +6517,7 @@
             "input_price_per_million": 0.792,
             "output_price_per_million": 0.792,
             "latency_seconds": 0.46,
-            "throughput_tokens_per_second": 21.09
+            "throughput_tokens_per_second": 20.65
           }
         },
         {
@@ -6538,8 +6527,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 0.12,
-            "throughput_tokens_per_second": 23.37
+            "latency_seconds": 0.11,
+            "throughput_tokens_per_second": 23.52
           }
         },
         {
@@ -6549,8 +6538,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.38,
-            "throughput_tokens_per_second": 135.1
+            "latency_seconds": 0.4,
+            "throughput_tokens_per_second": 131.0
           }
         }
       ]
@@ -6587,7 +6576,7 @@
             "input_price_per_million": 0.792,
             "output_price_per_million": 0.792,
             "latency_seconds": 0.46,
-            "throughput_tokens_per_second": 21.09
+            "throughput_tokens_per_second": 20.65
           }
         },
         {
@@ -6597,8 +6586,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.9,
             "output_price_per_million": 0.9,
-            "latency_seconds": 0.38,
-            "throughput_tokens_per_second": 135.1
+            "latency_seconds": 0.4,
+            "throughput_tokens_per_second": 131.0
           }
         }
       ]
@@ -6625,7 +6614,42 @@
         "max_completion_tokens": null,
         "is_moderated": false
       },
-      "per_request_limits": null
+      "per_request_limits": null,
+      "providers": [
+        {
+          "name": "fireworks",
+          "metrics": {
+            "context_length": 66000,
+            "max_output_tokens": 66000,
+            "input_price_per_million": 0.9,
+            "output_price_per_million": 0.9,
+            "latency_seconds": 0.99,
+            "throughput_tokens_per_second": 71.53
+          }
+        },
+        {
+          "name": "together",
+          "metrics": {
+            "context_length": 66000,
+            "max_output_tokens": 66000,
+            "input_price_per_million": 1.08,
+            "output_price_per_million": 1.08,
+            "latency_seconds": 0.53,
+            "throughput_tokens_per_second": 94.15
+          }
+        },
+        {
+          "name": "mistral",
+          "metrics": {
+            "context_length": 66000,
+            "max_output_tokens": 66000,
+            "input_price_per_million": 2.0,
+            "output_price_per_million": 6.0,
+            "latency_seconds": 0.3,
+            "throughput_tokens_per_second": 73.37
+          }
+        }
+      ]
     },
     {
       "id": "microsoft/wizardlm-2-8x22b",
@@ -6658,8 +6682,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.26,
-            "throughput_tokens_per_second": 31.21
+            "latency_seconds": 0.19,
+            "throughput_tokens_per_second": 31.74
           }
         },
         {
@@ -6669,8 +6693,8 @@
             "max_output_tokens": 66000,
             "input_price_per_million": 0.62,
             "output_price_per_million": 0.62,
-            "latency_seconds": 2.88,
-            "throughput_tokens_per_second": 23.81
+            "latency_seconds": 3.09,
+            "throughput_tokens_per_second": 22.68
           }
         },
         {
@@ -6680,8 +6704,8 @@
             "max_output_tokens": 66000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 1.0,
-            "latency_seconds": 0.49,
-            "throughput_tokens_per_second": 50.37
+            "latency_seconds": 0.28,
+            "throughput_tokens_per_second": 50.96
           }
         },
         {
@@ -6691,8 +6715,8 @@
             "max_output_tokens": 66000,
             "input_price_per_million": 1.08,
             "output_price_per_million": 1.08,
-            "latency_seconds": 1.1,
-            "throughput_tokens_per_second": 51.38
+            "latency_seconds": 1.25,
+            "throughput_tokens_per_second": 50.5
           }
         }
       ]
@@ -6728,8 +6752,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.055,
             "output_price_per_million": 0.055,
-            "latency_seconds": 0.13,
-            "throughput_tokens_per_second": 52.51
+            "latency_seconds": 0.14,
+            "throughput_tokens_per_second": 47.19
           }
         },
         {
@@ -6739,8 +6763,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 0.06,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 60.11
+            "latency_seconds": 0.45,
+            "throughput_tokens_per_second": 52.22
           }
         },
         {
@@ -6750,8 +6774,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.28,
-            "throughput_tokens_per_second": 73.39
+            "latency_seconds": 0.3,
+            "throughput_tokens_per_second": 73.05
           }
         }
       ]
@@ -6788,7 +6812,7 @@
             "input_price_per_million": 1.25,
             "output_price_per_million": 5.0,
             "latency_seconds": 1.19,
-            "throughput_tokens_per_second": 58.84
+            "throughput_tokens_per_second": 53.76
           }
         },
         {
@@ -6798,8 +6822,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 1.25,
             "output_price_per_million": 5.0,
-            "latency_seconds": 2.41,
-            "throughput_tokens_per_second": 69.25
+            "latency_seconds": 2.24,
+            "throughput_tokens_per_second": 51.21
           }
         }
       ]
@@ -6835,8 +6859,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 10.0,
             "output_price_per_million": 30.0,
-            "latency_seconds": 0.8,
-            "throughput_tokens_per_second": 31.08
+            "latency_seconds": 0.88,
+            "throughput_tokens_per_second": 31.43
           }
         }
       ]
@@ -6872,8 +6896,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 2.85,
             "output_price_per_million": 14.25,
-            "latency_seconds": 0.34,
-            "throughput_tokens_per_second": 50.37
+            "latency_seconds": 0.27,
+            "throughput_tokens_per_second": 49.66
           }
         }
       ]
@@ -6909,8 +6933,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 2.85,
             "output_price_per_million": 14.25,
-            "latency_seconds": 1.01,
-            "throughput_tokens_per_second": 48.03
+            "latency_seconds": 0.96,
+            "throughput_tokens_per_second": 50.63
           }
         }
       ]
@@ -6947,7 +6971,7 @@
             "input_price_per_million": 1.08,
             "output_price_per_million": 1.08,
             "latency_seconds": 0.4,
-            "throughput_tokens_per_second": 81.79
+            "throughput_tokens_per_second": 82.38
           }
         }
       ]
@@ -6983,8 +7007,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 0.8,
-            "latency_seconds": 1.68,
-            "throughput_tokens_per_second": 18.36
+            "latency_seconds": 2.02,
+            "throughput_tokens_per_second": 17.87
           }
         }
       ]
@@ -7020,8 +7044,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.95,
             "output_price_per_million": 1.9,
-            "latency_seconds": 1.7,
-            "throughput_tokens_per_second": 21.11
+            "latency_seconds": 1.84,
+            "throughput_tokens_per_second": 20.96
           }
         }
       ]
@@ -7058,7 +7082,7 @@
             "input_price_per_million": 0.475,
             "output_price_per_million": 1.425,
             "latency_seconds": 0.13,
-            "throughput_tokens_per_second": 114.3
+            "throughput_tokens_per_second": 117.6
           }
         }
       ]
@@ -7094,8 +7118,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.25,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 138.6
+            "latency_seconds": 0.76,
+            "throughput_tokens_per_second": 130.0
           }
         }
       ]
@@ -7131,8 +7155,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.25,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 138.6
+            "latency_seconds": 0.76,
+            "throughput_tokens_per_second": 130.0
           }
         },
         {
@@ -7142,8 +7166,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 1.25,
-            "latency_seconds": 1.07,
-            "throughput_tokens_per_second": 135.8
+            "latency_seconds": 1.13,
+            "throughput_tokens_per_second": 147.4
           }
         }
       ]
@@ -7179,8 +7203,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 15.0,
             "output_price_per_million": 75.0,
-            "latency_seconds": 2.97,
-            "throughput_tokens_per_second": 24.74
+            "latency_seconds": 2.59,
+            "throughput_tokens_per_second": 25.05
           }
         }
       ]
@@ -7216,8 +7240,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 15.0,
             "output_price_per_million": 75.0,
-            "latency_seconds": 2.97,
-            "throughput_tokens_per_second": 24.74
+            "latency_seconds": 2.59,
+            "throughput_tokens_per_second": 25.05
           }
         },
         {
@@ -7227,8 +7251,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 15.0,
             "output_price_per_million": 75.0,
-            "latency_seconds": 4.19,
-            "throughput_tokens_per_second": 20.65
+            "latency_seconds": 4.28,
+            "throughput_tokens_per_second": 20.77
           }
         }
       ]
@@ -7264,8 +7288,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.13,
-            "throughput_tokens_per_second": 58.45
+            "latency_seconds": 1.23,
+            "throughput_tokens_per_second": 60.66
           }
         }
       ]
@@ -7301,8 +7325,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 1.13,
-            "throughput_tokens_per_second": 58.45
+            "latency_seconds": 1.54,
+            "throughput_tokens_per_second": 58.92
           }
         },
         {
@@ -7312,8 +7336,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 15.0,
-            "latency_seconds": 3.21,
-            "throughput_tokens_per_second": 52.57
+            "latency_seconds": 4.15,
+            "throughput_tokens_per_second": 54.52
           }
         }
       ]
@@ -7349,8 +7373,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.475,
             "output_price_per_million": 1.425,
-            "latency_seconds": 0.17,
-            "throughput_tokens_per_second": 130.4
+            "latency_seconds": 0.19,
+            "throughput_tokens_per_second": 118.6
           }
         }
       ]
@@ -7386,8 +7410,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 6.0,
-            "latency_seconds": 0.76,
-            "throughput_tokens_per_second": 30.86
+            "latency_seconds": 0.5,
+            "throughput_tokens_per_second": 30.26
           }
         },
         {
@@ -7397,8 +7421,8 @@
             "max_output_tokens": 128000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 9.0,
-            "latency_seconds": 1.05,
-            "throughput_tokens_per_second": 20.18
+            "latency_seconds": 0.88,
+            "throughput_tokens_per_second": 27.1
           }
         }
       ]
@@ -7434,8 +7458,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 0.47,
-            "throughput_tokens_per_second": 99.49
+            "latency_seconds": 0.78,
+            "throughput_tokens_per_second": 116.0
           }
         }
       ]
@@ -7471,8 +7495,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 10.0,
             "output_price_per_million": 30.0,
-            "latency_seconds": 0.85,
-            "throughput_tokens_per_second": 43.41
+            "latency_seconds": 0.74,
+            "throughput_tokens_per_second": 40.2
           }
         }
       ]
@@ -7508,8 +7532,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.54,
             "output_price_per_million": 0.54,
-            "latency_seconds": 0.31,
-            "throughput_tokens_per_second": 82.67
+            "latency_seconds": 0.33,
+            "throughput_tokens_per_second": 95.28
           }
         }
       ]
@@ -7546,7 +7570,7 @@
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.6,
             "latency_seconds": 0.47,
-            "throughput_tokens_per_second": 59.34
+            "throughput_tokens_per_second": 59.87
           }
         }
       ]
@@ -7582,8 +7606,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 0.25,
             "output_price_per_million": 0.25,
-            "latency_seconds": 0.23,
-            "throughput_tokens_per_second": 86.5
+            "latency_seconds": 0.22,
+            "throughput_tokens_per_second": 84.83
           }
         }
       ]
@@ -7619,8 +7643,8 @@
             "max_output_tokens": 32000,
             "input_price_per_million": 2.75,
             "output_price_per_million": 8.1,
-            "latency_seconds": 4.12,
-            "throughput_tokens_per_second": 39.07
+            "latency_seconds": 8.29,
+            "throughput_tokens_per_second": 40.32
           }
         }
       ]
@@ -7656,8 +7680,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 3.25,
-            "throughput_tokens_per_second": 105.4
+            "latency_seconds": 2.32,
+            "throughput_tokens_per_second": 73.95
           }
         }
       ]
@@ -7693,8 +7717,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.32,
-            "throughput_tokens_per_second": 68.58
+            "latency_seconds": 2.03,
+            "throughput_tokens_per_second": 56.27
           }
         }
       ]
@@ -7730,8 +7754,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 4.65,
-            "throughput_tokens_per_second": 99.22
+            "latency_seconds": 3.45,
+            "throughput_tokens_per_second": 218.0
           }
         }
       ]
@@ -7767,8 +7791,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.79,
-            "throughput_tokens_per_second": 149.1
+            "latency_seconds": 1.35,
+            "throughput_tokens_per_second": 132.4
           }
         }
       ]
@@ -7804,8 +7828,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.54,
             "output_price_per_million": 0.54,
-            "latency_seconds": 0.52,
-            "throughput_tokens_per_second": 106.2
+            "latency_seconds": 0.29,
+            "throughput_tokens_per_second": 124.0
           }
         }
       ]
@@ -7841,8 +7865,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.24,
             "output_price_per_million": 0.24,
-            "latency_seconds": 0.31,
-            "throughput_tokens_per_second": 57.84
+            "latency_seconds": 0.29,
+            "throughput_tokens_per_second": 55.51
           }
         },
         {
@@ -7852,8 +7876,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 135.2
+            "latency_seconds": 0.41,
+            "throughput_tokens_per_second": 142.5
           }
         },
         {
@@ -7863,8 +7887,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.5,
-            "latency_seconds": 0.56,
-            "throughput_tokens_per_second": 71.66
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 67.33
           }
         },
         {
@@ -7874,8 +7898,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.54,
             "output_price_per_million": 0.54,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 105.0
+            "latency_seconds": 0.3,
+            "throughput_tokens_per_second": 98.34
           }
         }
       ]
@@ -7911,8 +7935,8 @@
             "max_output_tokens": 33000,
             "input_price_per_million": 0.54,
             "output_price_per_million": 0.54,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 105.0
+            "latency_seconds": 0.37,
+            "throughput_tokens_per_second": 100.9
           }
         }
       ]
@@ -7948,8 +7972,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 84.06
+            "latency_seconds": 0.47,
+            "throughput_tokens_per_second": 90.23
           }
         }
       ]
@@ -7985,8 +8009,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.055,
             "output_price_per_million": 0.055,
-            "latency_seconds": 0.24,
-            "throughput_tokens_per_second": 76.69
+            "latency_seconds": 0.2,
+            "throughput_tokens_per_second": 77.29
           }
         },
         {
@@ -7996,8 +8020,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.06,
             "output_price_per_million": 0.06,
-            "latency_seconds": 0.69,
-            "throughput_tokens_per_second": 49.01
+            "latency_seconds": 0.73,
+            "throughput_tokens_per_second": 49.2
           }
         },
         {
@@ -8007,8 +8031,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 84.06
+            "latency_seconds": 0.47,
+            "throughput_tokens_per_second": 90.23
           }
         }
       ]
@@ -8044,8 +8068,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 1.5,
             "output_price_per_million": 2.25,
-            "latency_seconds": 1.05,
-            "throughput_tokens_per_second": 22.7
+            "latency_seconds": 1.28,
+            "throughput_tokens_per_second": 26.61
           }
         },
         {
@@ -8055,8 +8079,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 3.0,
-            "latency_seconds": 1.05,
-            "throughput_tokens_per_second": 22.7
+            "latency_seconds": 1.28,
+            "throughput_tokens_per_second": 26.61
           }
         }
       ]
@@ -8092,8 +8116,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 8.0,
             "output_price_per_million": 24.0,
-            "latency_seconds": 1.73,
-            "throughput_tokens_per_second": 14.55
+            "latency_seconds": 0.88,
+            "throughput_tokens_per_second": 14.42
           }
         }
       ]
@@ -8129,8 +8153,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 8.0,
             "output_price_per_million": 24.0,
-            "latency_seconds": 1.73,
-            "throughput_tokens_per_second": 14.55
+            "latency_seconds": 0.88,
+            "throughput_tokens_per_second": 14.42
           }
         }
       ]
@@ -8166,8 +8190,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 8.0,
             "output_price_per_million": 24.0,
-            "latency_seconds": 3.14,
-            "throughput_tokens_per_second": 14.37
+            "latency_seconds": 2.58,
+            "throughput_tokens_per_second": 14.22
           }
         }
       ]
@@ -8203,8 +8227,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 8.0,
             "output_price_per_million": 24.0,
-            "latency_seconds": 3.14,
-            "throughput_tokens_per_second": 14.37
+            "latency_seconds": 2.58,
+            "throughput_tokens_per_second": 14.22
           }
         }
       ]
@@ -8240,8 +8264,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.17,
             "output_price_per_million": 0.17,
-            "latency_seconds": 0.83,
-            "throughput_tokens_per_second": 62.79
+            "latency_seconds": 0.67,
+            "throughput_tokens_per_second": 62.53
           }
         }
       ]
@@ -8277,19 +8301,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.35,
             "output_price_per_million": 0.4,
-            "latency_seconds": 0.39,
-            "throughput_tokens_per_second": 29.07
-          }
-        },
-        {
-          "name": "novitaai",
-          "metrics": {
-            "context_length": 4000,
-            "max_output_tokens": 4000,
-            "input_price_per_million": 0.58,
-            "output_price_per_million": 0.78,
-            "latency_seconds": 1.44,
-            "throughput_tokens_per_second": 45.56
+            "latency_seconds": 0.41,
+            "throughput_tokens_per_second": 23.39
           }
         }
       ]
@@ -8325,8 +8338,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.47,
-            "throughput_tokens_per_second": 83.59
+            "latency_seconds": 0.51,
+            "throughput_tokens_per_second": 91.72
           }
         }
       ]
@@ -8362,8 +8375,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.47,
-            "throughput_tokens_per_second": 83.59
+            "latency_seconds": 0.57,
+            "throughput_tokens_per_second": 90.39
           }
         }
       ]
@@ -8399,8 +8412,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.07,
             "output_price_per_million": 0.07,
-            "latency_seconds": 0.5,
-            "throughput_tokens_per_second": 93.67
+            "latency_seconds": 0.51,
+            "throughput_tokens_per_second": 91.72
           }
         }
       ]
@@ -8436,8 +8449,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 9.375,
             "output_price_per_million": 9.375,
-            "latency_seconds": 1.09,
-            "throughput_tokens_per_second": 10.23
+            "latency_seconds": 1.8,
+            "throughput_tokens_per_second": 10.47
           }
         },
         {
@@ -8447,8 +8460,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 12.5,
             "output_price_per_million": 12.5,
-            "latency_seconds": 1.09,
-            "throughput_tokens_per_second": 10.23
+            "latency_seconds": 1.8,
+            "throughput_tokens_per_second": 10.47
           }
         }
       ]
@@ -8508,8 +8521,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 0.52,
-            "throughput_tokens_per_second": 110.9
+            "latency_seconds": 0.42,
+            "throughput_tokens_per_second": 102.5
           }
         }
       ]
@@ -8545,8 +8558,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 10.0,
             "output_price_per_million": 30.0,
-            "latency_seconds": 0.93,
-            "throughput_tokens_per_second": 34.2
+            "latency_seconds": 1.12,
+            "throughput_tokens_per_second": 31.92
           }
         }
       ]
@@ -8582,8 +8595,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 1.25,
-            "throughput_tokens_per_second": 96.13
+            "latency_seconds": 1.32,
+            "throughput_tokens_per_second": 94.5
           }
         }
       ]
@@ -8619,8 +8632,8 @@
             "max_output_tokens": 8000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 2.68,
-            "throughput_tokens_per_second": 46.99
+            "latency_seconds": 2.77,
+            "throughput_tokens_per_second": 37.97
           }
         }
       ]
@@ -8656,8 +8669,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 0.5,
-            "latency_seconds": 1.51,
-            "throughput_tokens_per_second": 28.23
+            "latency_seconds": 1.47,
+            "throughput_tokens_per_second": 28.34
           }
         }
       ]
@@ -8693,8 +8706,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 3.75,
             "output_price_per_million": 3.75,
-            "latency_seconds": 1.82,
-            "throughput_tokens_per_second": 15.27
+            "latency_seconds": 2.8,
+            "throughput_tokens_per_second": 15.09
           }
         },
         {
@@ -8704,8 +8717,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 5.0,
             "output_price_per_million": 5.0,
-            "latency_seconds": 1.82,
-            "throughput_tokens_per_second": 15.27
+            "latency_seconds": 2.8,
+            "throughput_tokens_per_second": 15.09
           }
         }
       ]
@@ -8741,8 +8754,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 1.5,
             "output_price_per_million": 2.0,
-            "latency_seconds": 0.66,
-            "throughput_tokens_per_second": 104.7
+            "latency_seconds": 0.49,
+            "throughput_tokens_per_second": 83.62
           }
         }
       ]
@@ -8778,8 +8791,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.51,
-            "throughput_tokens_per_second": 53.15
+            "latency_seconds": 0.35,
+            "throughput_tokens_per_second": 59.34
           }
         }
       ]
@@ -8815,7 +8828,7 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 1.2,
-            "latency_seconds": 1.16,
+            "latency_seconds": 1.41,
             "throughput_tokens_per_second": 11.26
           }
         },
@@ -8826,8 +8839,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.125,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.83,
-            "throughput_tokens_per_second": 19.19
+            "latency_seconds": 0.94,
+            "throughput_tokens_per_second": 18.88
           }
         },
         {
@@ -8837,8 +8850,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.83,
-            "throughput_tokens_per_second": 19.19
+            "latency_seconds": 0.94,
+            "throughput_tokens_per_second": 18.88
           }
         }
       ]
@@ -8874,8 +8887,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 3.0,
             "output_price_per_million": 4.0,
-            "latency_seconds": 1.06,
-            "throughput_tokens_per_second": 114.8
+            "latency_seconds": 0.96,
+            "throughput_tokens_per_second": 115.9
           }
         },
         {
@@ -8922,8 +8935,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 60.0,
             "output_price_per_million": 120.0,
-            "latency_seconds": 1.15,
-            "throughput_tokens_per_second": 29.46
+            "latency_seconds": 1.21,
+            "throughput_tokens_per_second": 27.62
           }
         },
         {
@@ -8933,8 +8946,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 60.0,
             "output_price_per_million": 120.0,
-            "latency_seconds": 1.73,
-            "throughput_tokens_per_second": 25.62
+            "latency_seconds": 2.02,
+            "throughput_tokens_per_second": 18.72
           }
         }
       ]
@@ -8970,8 +8983,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 60.0,
             "output_price_per_million": 120.0,
-            "latency_seconds": 1.45,
-            "throughput_tokens_per_second": 29.32
+            "latency_seconds": 1.4,
+            "throughput_tokens_per_second": 29.37
           }
         }
       ]
@@ -9007,8 +9020,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.17,
             "output_price_per_million": 0.17,
-            "latency_seconds": 0.61,
-            "throughput_tokens_per_second": 81.72
+            "latency_seconds": 0.57,
+            "throughput_tokens_per_second": 81.91
           }
         },
         {
@@ -9018,8 +9031,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.32,
-            "throughput_tokens_per_second": 64.26
+            "latency_seconds": 0.34,
+            "throughput_tokens_per_second": 64.97
           }
         }
       ]
@@ -9055,8 +9068,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 1.5,
             "output_price_per_million": 2.25,
-            "latency_seconds": 2.41,
-            "throughput_tokens_per_second": 24.2
+            "latency_seconds": 2.69,
+            "throughput_tokens_per_second": 23.99
           }
         },
         {
@@ -9066,8 +9079,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 2.0,
             "output_price_per_million": 3.0,
-            "latency_seconds": 2.41,
-            "throughput_tokens_per_second": 24.2
+            "latency_seconds": 2.69,
+            "throughput_tokens_per_second": 23.99
           }
         }
       ]
@@ -9103,8 +9116,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 63.98
+            "latency_seconds": 0.43,
+            "throughput_tokens_per_second": 61.17
           }
         }
       ]
@@ -9140,8 +9153,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 8.0,
             "output_price_per_million": 24.0,
-            "latency_seconds": 3.66,
-            "throughput_tokens_per_second": 26.9
+            "latency_seconds": 1.79,
+            "throughput_tokens_per_second": 27.51
           }
         }
       ]
@@ -9177,8 +9190,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 8.0,
             "output_price_per_million": 24.0,
-            "latency_seconds": 3.66,
-            "throughput_tokens_per_second": 26.9
+            "latency_seconds": 1.79,
+            "throughput_tokens_per_second": 27.51
           }
         }
       ]
@@ -9214,8 +9227,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.8,
             "output_price_per_million": 1.2,
-            "latency_seconds": 1.38,
-            "throughput_tokens_per_second": 11.65
+            "latency_seconds": 1.45,
+            "throughput_tokens_per_second": 11.47
           }
         },
         {
@@ -9225,8 +9238,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.125,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.64,
-            "throughput_tokens_per_second": 31.28
+            "latency_seconds": 0.48,
+            "throughput_tokens_per_second": 31.7
           }
         },
         {
@@ -9236,8 +9249,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.64,
-            "throughput_tokens_per_second": 31.28
+            "latency_seconds": 0.48,
+            "throughput_tokens_per_second": 31.7
           }
         }
       ]
@@ -9273,8 +9286,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.125,
             "output_price_per_million": 1.125,
-            "latency_seconds": 0.64,
-            "throughput_tokens_per_second": 31.28
+            "latency_seconds": 0.48,
+            "throughput_tokens_per_second": 31.7
           }
         },
         {
@@ -9284,8 +9297,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.64,
-            "throughput_tokens_per_second": 31.28
+            "latency_seconds": 0.48,
+            "throughput_tokens_per_second": 31.7
           }
         }
       ]
@@ -9321,8 +9334,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 0.95,
-            "throughput_tokens_per_second": 162.9
+            "latency_seconds": 1.1,
+            "throughput_tokens_per_second": 166.6
           }
         }
       ]
@@ -9358,8 +9371,8 @@
             "max_output_tokens": 1000,
             "input_price_per_million": 1.0,
             "output_price_per_million": 2.0,
-            "latency_seconds": 1.09,
-            "throughput_tokens_per_second": 119.5
+            "latency_seconds": 0.96,
+            "throughput_tokens_per_second": 146.9
           }
         }
       ]
@@ -9395,8 +9408,8 @@
             "max_output_tokens": 2000,
             "input_price_per_million": 0.0,
             "output_price_per_million": 0.0,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 103.4
+            "latency_seconds": 0.36,
+            "throughput_tokens_per_second": 102.4
           }
         }
       ]
@@ -9432,8 +9445,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.065,
             "output_price_per_million": 0.065,
-            "latency_seconds": 0.25,
-            "throughput_tokens_per_second": 81.41
+            "latency_seconds": 0.28,
+            "throughput_tokens_per_second": 85.43
           }
         },
         {
@@ -9443,8 +9456,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.09,
             "output_price_per_million": 0.09,
-            "latency_seconds": 0.84,
-            "throughput_tokens_per_second": 70.62
+            "latency_seconds": 0.88,
+            "throughput_tokens_per_second": 72.84
           }
         },
         {
@@ -9454,8 +9467,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.18,
             "output_price_per_million": 0.18,
-            "latency_seconds": 0.12,
-            "throughput_tokens_per_second": 68.57
+            "latency_seconds": 0.11,
+            "throughput_tokens_per_second": 70.38
           }
         },
         {
@@ -9465,8 +9478,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.27,
-            "throughput_tokens_per_second": 115.5
+            "latency_seconds": 0.23,
+            "throughput_tokens_per_second": 115.4
           }
         },
         {
@@ -9476,8 +9489,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.27,
             "output_price_per_million": 0.27,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 103.4
+            "latency_seconds": 0.36,
+            "throughput_tokens_per_second": 102.4
           }
         },
         {
@@ -9487,8 +9500,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.125,
             "output_price_per_million": 1.125,
-            "latency_seconds": 1.11,
-            "throughput_tokens_per_second": 22.98
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 23.12
           }
         },
         {
@@ -9498,8 +9511,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 1.11,
-            "throughput_tokens_per_second": 22.98
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 23.12
           }
         }
       ]
@@ -9535,8 +9548,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.2,
             "output_price_per_million": 0.2,
-            "latency_seconds": 0.27,
-            "throughput_tokens_per_second": 115.5
+            "latency_seconds": 0.23,
+            "throughput_tokens_per_second": 115.4
           }
         },
         {
@@ -9546,8 +9559,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.27,
             "output_price_per_million": 0.27,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 103.4
+            "latency_seconds": 0.36,
+            "throughput_tokens_per_second": 102.4
           }
         }
       ]
@@ -9583,8 +9596,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.125,
             "output_price_per_million": 1.125,
-            "latency_seconds": 1.11,
-            "throughput_tokens_per_second": 22.98
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 23.12
           }
         },
         {
@@ -9594,8 +9607,8 @@
             "max_output_tokens": 512,
             "input_price_per_million": 1.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 1.11,
-            "throughput_tokens_per_second": 22.98
+            "latency_seconds": 1.26,
+            "throughput_tokens_per_second": 23.12
           }
         }
       ]
@@ -9631,8 +9644,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.198,
             "output_price_per_million": 0.198,
-            "latency_seconds": 0.31,
-            "throughput_tokens_per_second": 54.02
+            "latency_seconds": 0.28,
+            "throughput_tokens_per_second": 56.81
           }
         },
         {
@@ -9642,8 +9655,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.3,
             "output_price_per_million": 0.3,
-            "latency_seconds": 0.32,
-            "throughput_tokens_per_second": 73.75
+            "latency_seconds": 0.3,
+            "throughput_tokens_per_second": 88.27
           }
         }
       ]
@@ -9679,8 +9692,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.41,
-            "throughput_tokens_per_second": 120.4
+            "latency_seconds": 0.45,
+            "throughput_tokens_per_second": 111.8
           }
         }
       ]
@@ -9716,8 +9729,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 0.5,
             "output_price_per_million": 1.5,
-            "latency_seconds": 0.35,
-            "throughput_tokens_per_second": 113.8
+            "latency_seconds": 0.32,
+            "throughput_tokens_per_second": 103.1
           }
         }
       ]
@@ -9753,8 +9766,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 30.0,
             "output_price_per_million": 60.0,
-            "latency_seconds": 0.71,
-            "throughput_tokens_per_second": 21.15
+            "latency_seconds": 0.65,
+            "throughput_tokens_per_second": 23.6
           }
         },
         {
@@ -9764,8 +9777,8 @@
             "max_output_tokens": 4000,
             "input_price_per_million": 30.0,
             "output_price_per_million": 60.0,
-            "latency_seconds": 1.5,
-            "throughput_tokens_per_second": 31.46
+            "latency_seconds": 1.45,
+            "throughput_tokens_per_second": 30.02
           }
         }
       ]
@@ -9802,7 +9815,7 @@
             "input_price_per_million": 30.0,
             "output_price_per_million": 60.0,
             "latency_seconds": 1.06,
-            "throughput_tokens_per_second": 25.68
+            "throughput_tokens_per_second": 27.69
           }
         }
       ]
