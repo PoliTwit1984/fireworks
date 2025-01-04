@@ -1,0 +1,349 @@
+OpenRouter Models by Provider
+=============================
+
+01-Ai
+-----
++ yi-large                                                        32K
+
+Aetherwiing
+-----------
++ mn-starcannon-12b                                               16K
+
+Ai21
+----
++ jamba-1-5-large                                                256K
++ jamba-1-5-mini                                                 256K
++ jamba-instruct                                                 256K
+
+Alpindale
+---------
++ goliath-120b                                                     6K
++ magnum-72b                                                      16K
+
+Amazon
+------
++ nova-lite-v1                                                   300K
++ nova-micro-v1                                                  128K
++ nova-pro-v1                                                    300K
+
+Anthracite-Org
+--------------
++ magnum-v2-72b                                                   32K
++ magnum-v4-72b                                                   16K
+
+Anthropic
+---------
++ claude-2                                                       200K
++ claude-2.0                                                     100K
++ claude-2.0:beta                                                100K
++ claude-2.1                                                     200K
++ claude-2.1:beta                                                200K
++ claude-2:beta                                                  200K
++ claude-3-haiku                                                 200K
++ claude-3-haiku:beta                                            200K
++ claude-3-opus                                                  200K
++ claude-3-opus:beta                                             200K
++ claude-3-sonnet                                                200K
++ claude-3-sonnet:beta                                           200K
++ claude-3.5-haiku                                               200K
++ claude-3.5-haiku-20241022                                      200K
++ claude-3.5-haiku-20241022:beta                                 200K
++ claude-3.5-haiku:beta                                          200K
++ claude-3.5-sonnet                                              200K
++ claude-3.5-sonnet-20240620                                     200K
++ claude-3.5-sonnet-20240620:beta                                200K
++ claude-3.5-sonnet:beta                                         200K
+
+Cognitivecomputations
+---------------------
++ dolphin-mixtral-8x22b                                           16K
++ dolphin-mixtral-8x7b                                            32K
+
+Cohere
+------
++ command                                                          4K
++ command-r                                                      128K
++ command-r-03-2024                                              128K
++ command-r-08-2024                                              128K
++ command-r-plus                                                 128K
++ command-r-plus-04-2024                                         128K
++ command-r-plus-08-2024                                         128K
++ command-r7b-12-2024                                            128K
+
+Databricks
+----------
++ dbrx-instruct                                                   32K
+
+Deepseek
+--------
++ deepseek-chat                                                   64K
++ deepseek-chat-v2.5                                               8K
+
+Eva-Unit-01
+-----------
++ eva-llama-3.33-70b                                              16K
++ eva-qwen-2.5-32b                                                16K
++ eva-qwen-2.5-72b                                                16K
+
+Google
+------
++ gemini-2.0-flash-exp:free                                      1.0M
++ gemini-2.0-flash-thinking-exp:free                              40K
++ gemini-exp-1114:free                                            40K
++ gemini-exp-1121:free                                            40K
++ gemini-exp-1206:free                                           2.1M
++ gemini-flash-1.5                                               1.0M
++ gemini-flash-1.5-8b                                            1.0M
++ gemini-flash-1.5-8b-exp                                        1.0M
++ gemini-flash-1.5-exp                                           1.0M
++ gemini-pro                                                      32K
++ gemini-pro-1.5                                                 2.0M
++ gemini-pro-1.5-exp                                             1.0M
++ gemini-pro-vision                                               16K
++ gemma-2-27b-it                                                   8K
++ gemma-2-9b-it                                                    4K
++ gemma-2-9b-it:free                                               4K
++ learnlm-1.5-pro-experimental:free                               40K
++ palm-2-chat-bison                                                9K
++ palm-2-chat-bison-32k                                           32K
++ palm-2-codechat-bison                                            7K
++ palm-2-codechat-bison-32k                                       32K
+
+Gryphe
+------
++ mythomax-l2-13b                                                  4K
++ mythomax-l2-13b:extended                                         8K
++ mythomax-l2-13b:free                                             4K
++ mythomax-l2-13b:nitro                                            4K
+
+Huggingfaceh4
+-------------
++ zephyr-7b-beta:free                                              4K
+
+Infermatic
+----------
++ mn-inferor-12b                                                  32K
+
+Inflatebot
+----------
++ mn-mag-mell-r1                                                  16K
+
+Inflection
+----------
++ inflection-3-pi                                                  8K
++ inflection-3-productivity                                        8K
+
+Jondurbin
+---------
++ airoboros-l2-70b                                                 4K
+
+Liquid
+------
++ lfm-40b                                                         66K
+
+Lizpreciatior
+-------------
++ lzlv-70b-fp16-hf                                                 4K
+
+Mancer
+------
++ weaver                                                           8K
+
+Meta-Llama
+----------
++ llama-2-13b-chat                                                 4K
++ llama-3-70b-instruct                                             8K
++ llama-3-70b-instruct:nitro                                       8K
++ llama-3-8b-instruct                                              8K
++ llama-3-8b-instruct:extended                                    16K
++ llama-3-8b-instruct:free                                         8K
++ llama-3-8b-instruct:nitro                                        8K
++ llama-3.1-405b                                                  32K
++ llama-3.1-405b-instruct                                         32K
++ llama-3.1-405b-instruct:free                                     8K
++ llama-3.1-405b-instruct:nitro                                    8K
++ llama-3.1-70b-instruct                                         131K
++ llama-3.1-70b-instruct:free                                      8K
++ llama-3.1-70b-instruct:nitro                                    64K
++ llama-3.1-8b-instruct                                          131K
++ llama-3.1-8b-instruct:free                                       8K
++ llama-3.2-11b-vision-instruct                                  131K
++ llama-3.2-11b-vision-instruct:free                               8K
++ llama-3.2-1b-instruct                                          131K
++ llama-3.2-1b-instruct:free                                       4K
++ llama-3.2-3b-instruct                                          131K
++ llama-3.2-3b-instruct:free                                       4K
++ llama-3.2-90b-vision-instruct                                  131K
++ llama-3.2-90b-vision-instruct:free                               4K
++ llama-3.3-70b-instruct                                         131K
++ llama-guard-2-8b                                                 8K
+
+Microsoft
+---------
++ phi-3-medium-128k-instruct                                     128K
++ phi-3-medium-128k-instruct:free                                  8K
++ phi-3-mini-128k-instruct                                       128K
++ phi-3-mini-128k-instruct:free                                    8K
++ phi-3.5-mini-128k-instruct                                     128K
++ wizardlm-2-7b                                                   32K
++ wizardlm-2-8x22b                                                65K
+
+Mistralai
+---------
++ codestral-mamba                                                256K
++ ministral-3b                                                   128K
++ ministral-8b                                                   128K
++ mistral-7b-instruct                                             32K
++ mistral-7b-instruct-v0.1                                         4K
++ mistral-7b-instruct-v0.2                                        32K
++ mistral-7b-instruct-v0.3                                        32K
++ mistral-7b-instruct:free                                         8K
++ mistral-7b-instruct:nitro                                       32K
++ mistral-large                                                  128K
++ mistral-large-2407                                             128K
++ mistral-large-2411                                             128K
++ mistral-medium                                                  32K
++ mistral-nemo                                                   128K
++ mistral-small                                                   32K
++ mistral-tiny                                                    32K
++ mixtral-8x22b-instruct                                          65K
++ mixtral-8x7b                                                    32K
++ mixtral-8x7b-instruct                                           32K
++ mixtral-8x7b-instruct:nitro                                     32K
++ pixtral-12b                                                      4K
++ pixtral-large-2411                                             128K
+
+Neversleep
+----------
++ llama-3-lumimaid-70b                                             8K
++ llama-3-lumimaid-8b                                             24K
++ llama-3-lumimaid-8b:extended                                    24K
++ llama-3.1-lumimaid-70b                                          16K
++ llama-3.1-lumimaid-8b                                           32K
++ noromaid-20b                                                     8K
+
+Nothingiisreal
+--------------
++ mn-celeste-12b                                                  16K
+
+Nousresearch
+------------
++ hermes-2-pro-llama-3-8b                                        131K
++ hermes-3-llama-3.1-405b                                        131K
++ hermes-3-llama-3.1-70b                                         131K
++ nous-hermes-2-mixtral-8x7b-dpo                                  32K
++ nous-hermes-llama2-13b                                           4K
+
+Nvidia
+------
++ llama-3.1-nemotron-70b-instruct                                131K
+
+Openai
+------
++ chatgpt-4o-latest                                              128K
++ gpt-3.5-turbo                                                   16K
++ gpt-3.5-turbo-0125                                              16K
++ gpt-3.5-turbo-0613                                               4K
++ gpt-3.5-turbo-1106                                              16K
++ gpt-3.5-turbo-16k                                               16K
++ gpt-3.5-turbo-instruct                                           4K
++ gpt-4                                                            8K
++ gpt-4-0314                                                       8K
++ gpt-4-1106-preview                                             128K
++ gpt-4-32k                                                       32K
++ gpt-4-32k-0314                                                  32K
++ gpt-4-turbo                                                    128K
++ gpt-4-turbo-preview                                            128K
++ gpt-4o                                                         128K
++ gpt-4o-2024-05-13                                              128K
++ gpt-4o-2024-08-06                                              128K
++ gpt-4o-2024-11-20                                              128K
++ gpt-4o-mini                                                    128K
++ gpt-4o-mini-2024-07-18                                         128K
++ gpt-4o:extended                                                128K
++ o1                                                             200K
++ o1-mini                                                        128K
++ o1-mini-2024-09-12                                             128K
++ o1-preview                                                     128K
++ o1-preview-2024-09-12                                          128K
+
+Openchat
+--------
++ openchat-7b                                                      8K
++ openchat-7b:free                                                 8K
+
+Openrouter
+----------
++ auto                                                           2.0M
+
+Perplexity
+----------
++ llama-3-sonar-large-32k-chat                                    32K
++ llama-3-sonar-large-32k-online                                  28K
++ llama-3-sonar-small-32k-chat                                    32K
++ llama-3.1-sonar-huge-128k-online                               127K
++ llama-3.1-sonar-large-128k-chat                                131K
++ llama-3.1-sonar-large-128k-online                              127K
++ llama-3.1-sonar-small-128k-chat                                131K
++ llama-3.1-sonar-small-128k-online                              127K
+
+Pygmalionai
+-----------
++ mythalion-13b                                                    4K
+
+Qwen
+----
++ qvq-72b-preview                                                128K
++ qwen-2-72b-instruct                                             32K
++ qwen-2-7b-instruct                                              32K
++ qwen-2-7b-instruct:free                                          8K
++ qwen-2-vl-72b-instruct                                           4K
++ qwen-2-vl-7b-instruct                                            4K
++ qwen-2.5-72b-instruct                                           32K
++ qwen-2.5-7b-instruct                                            32K
++ qwen-2.5-coder-32b-instruct                                     33K
++ qwq-32b-preview                                                 32K
+
+Raifle
+------
++ sorcererlm-8x22b                                                16K
+
+Sao10k
+------
++ l3-euryale-70b                                                   8K
++ l3-lunaris-8b                                                    8K
++ l3.1-euryale-70b                                               128K
++ l3.3-euryale-70b                                                16K
+
+Sophosympatheia
+---------------
++ midnight-rose-70b                                                4K
+
+Teknium
+-------
++ openhermes-2.5-mistral-7b                                        4K
+
+Thedrummer
+----------
++ rocinante-12b                                                   32K
++ unslopnemo-12b                                                  32K
+
+Undi95
+------
++ remm-slerp-l2-13b                                                4K
++ remm-slerp-l2-13b:extended                                       6K
++ toppy-m-7b                                                       4K
++ toppy-m-7b:free                                                  4K
++ toppy-m-7b:nitro                                                 4K
+
+X-Ai
+----
++ grok-2-1212                                                    131K
++ grok-2-vision-1212                                              32K
++ grok-beta                                                      131K
++ grok-vision-beta                                                 8K
+
+Xwin-Lm
+-------
++ xwin-lm-70b                                                      8K
+
